@@ -60,6 +60,9 @@ namespace :deploy do
       puts "restart app"
       upload!("web/.htaccess", "#{current_path}/web")
       # Your restart mechanism here, for example:
+
+       execute :chmod, "-R", "0744", current_path
+       execute :chown, "-RH", "--dereference", "#{httpd_user}:#{httpd_group}", current_path
     end
   end
 

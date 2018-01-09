@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="76446ef5-2a93-44b4-a43a-88f47fea51a6" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/boc/admins/logs/log-2018-01-09.php" afterPath="$PROJECT_DIR$/boc/admins/logs/log-2018-01-09.php" />
-      <change beforePath="$PROJECT_DIR$/boc/site/logs/log-2018-01-09.php" afterPath="$PROJECT_DIR$/boc/site/logs/log-2018-01-09.php" />
-      <change beforePath="$PROJECT_DIR$/boc/site/views/bus.php" afterPath="$PROJECT_DIR$/boc/site/views/bus.php" />
-      <change beforePath="$PROJECT_DIR$/boc/site/views/welcome.php" afterPath="$PROJECT_DIR$/boc/site/views/welcome.php" />
-      <change beforePath="$PROJECT_DIR$/web/static/web/css/my.css" afterPath="$PROJECT_DIR$/web/static/web/css/my.css" />
-      <change beforePath="$PROJECT_DIR$/web/static/web/css/my.less" afterPath="$PROJECT_DIR$/web/static/web/css/my.less" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/config/deploy.rb" afterPath="$PROJECT_DIR$/config/deploy.rb" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -43,11 +39,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="bus.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="bus.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/boc/site/views/bus.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="165">
               <caret line="11" column="7" lean-forward="true" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="deploy.rb" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/config/deploy.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="291">
+              <caret line="64" column="7" lean-forward="false" selection-start-line="64" selection-start-column="7" selection-end-line="64" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="deploy.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../minggu/config/deploy.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="93" column="90" lean-forward="true" selection-start-line="92" selection-start-column="5" selection-end-line="93" selection-end-column="90" />
               <folding />
             </state>
           </provider>
@@ -127,6 +143,7 @@
       <find>restart</find>
       <find>restart_php</find>
       <find>.bus .bus-col h2</find>
+      <find>$list</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -144,10 +161,10 @@
         <option value="$PROJECT_DIR$/web/static/web/css/dest/postcss.css" />
         <option value="$PROJECT_DIR$/boc/site/views/inc/head.php" />
         <option value="$PROJECT_DIR$/boc/site/views/inc/top.php" />
-        <option value="$PROJECT_DIR$/config/deploy.rb" />
         <option value="$PROJECT_DIR$/web/static/web/css/my.less" />
         <option value="$PROJECT_DIR$/boc/site/views/welcome.php" />
         <option value="$PROJECT_DIR$/boc/site/views/bus.php" />
+        <option value="$PROJECT_DIR$/config/deploy.rb" />
       </list>
     </option>
   </component>
@@ -332,24 +349,6 @@
             <path>
               <item name="skycup" type="b2602c69:ProjectViewProjectNode" />
               <item name="skycup" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="boc" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="skycup" type="b2602c69:ProjectViewProjectNode" />
-              <item name="skycup" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="boc" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="site" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="skycup" type="b2602c69:ProjectViewProjectNode" />
-              <item name="skycup" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="boc" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="site" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="skycup" type="b2602c69:ProjectViewProjectNode" />
-              <item name="skycup" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="config" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
@@ -367,7 +366,7 @@
     <property name="eu.ydp.idea.ts.spec.generator.settings.spec.template" value="import {$ClassName$} from '$TestsRelativePath$../src/$classRelativePath$/$ClassName$';&#10;&#10;describe('$ClassName$', () =&gt; {&#10;  let $ObjName$:$ClassName$;&#10;&#10;  beforeEach(() =&gt; {&#10;    $ObjName$ = new $ClassName$();&#10;  });&#10;&#10;  describe('', () =&gt; {&#10;    it('', () =&gt; {&#10;      // given&#10;&#10;      // when&#10;&#10;      // then&#10;    });&#10;  });&#10;});&#10;" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="/usr/local/bin/node" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="SearchEverywhereHistoryKey" value="my&#9;FILE&#9;file:///Users/air/Documents/personal/skycup/web/static/web/css/my.less&#10;main.js&#9;FILE&#9;file:///Users/air/Documents/personal/skycup/web/static/web/js/main.js&#10;hea&#9;FILE&#9;file:///Users/air/Documents/personal/skycup/boc/site/views/inc/head.php" />
+    <property name="SearchEverywhereHistoryKey" value="de&#9;FILE&#9;file:///Users/air/Documents/personal/minggu/config/deploy.rb&#10;my&#9;FILE&#9;file:///Users/air/Documents/personal/skycup/web/static/web/css/my.less&#10;main.js&#9;FILE&#9;file:///Users/air/Documents/personal/skycup/web/static/web/js/main.js&#10;hea&#9;FILE&#9;file:///Users/air/Documents/personal/skycup/boc/site/views/inc/head.php" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -405,16 +404,15 @@
       <updated>1515426916186</updated>
       <workItem from="1515426917728" duration="72000" />
       <workItem from="1515427391695" duration="942000" />
-      <workItem from="1515503019503" duration="8478000" />
+      <workItem from="1515503019503" duration="8719000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9492000" />
+    <option name="totallyTimeSpent" value="9733000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="181" y="37" width="1257" height="822" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="PlantUML" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -422,7 +420,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287483" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3645117" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3645117" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25803792" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -679,26 +677,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../minggu/config/deploy.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="107" column="0" lean-forward="false" selection-start-line="107" selection-start-column="0" selection-end-line="113" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
           <caret line="49" column="8" lean-forward="false" selection-start-line="49" selection-start-column="8" selection-end-line="49" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/deploy.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="123" column="0" lean-forward="true" selection-start-line="123" selection-start-column="0" selection-end-line="123" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -733,6 +715,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="11" column="7" lean-forward="true" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../minggu/config/deploy.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="93" column="90" lean-forward="true" selection-start-line="92" selection-start-column="5" selection-end-line="93" selection-end-column="90" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/deploy.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="64" column="7" lean-forward="false" selection-start-line="64" selection-start-column="7" selection-end-line="64" selection-end-column="7" />
           <folding />
         </state>
       </provider>
