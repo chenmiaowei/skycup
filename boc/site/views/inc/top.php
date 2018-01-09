@@ -1,5 +1,5 @@
 <div class="header f-b">
-    <a class="fl nav"></a>
+<!--    <a class="fl nav"></a>-->
     <a class="fl logo" href="<?php echo site_url(''); ?>"></a>
     <div class="fr header-right f-cb">
         <!-- <div class="lag f-cb fl">

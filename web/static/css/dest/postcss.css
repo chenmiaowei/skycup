@@ -455,7 +455,7 @@
 }
 .banner .other-btns a{
   display: block;
-  width: 210px;
+  width: 175px;
   height: 30px;
   vertical-align: middle;
   text-align: center;
@@ -466,7 +466,7 @@
 .banner .other-btns a span{
   vertical-align: middle;
   display: inline-block;
-  font-size: 16px;
+  font-size: 14px;
 }
 .banner .other-btns a .img{
   width: 30px;

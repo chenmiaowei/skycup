@@ -1,0 +1,82 @@
+/*---------------------------------------------------
+    LESS Elements 0.9
+  ---------------------------------------------------
+    A set of useful LESS mixins
+    More info at: http://lesselements.com
+  ---------------------------------------------------*/
+.clearfix {
+  zoom: 1;
+}
+.clearfix:before,
+.clearfix:after {
+  content: "";
+  display: table;
+}
+.clearfix:after {
+  clear: both;
+}
+@font-face {
+  font-family: '微软雅黑';
+  font-weight: normal;
+  font-style: normal;
+}
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Huxiaobo", Arial;
+  font-weight: normal;
+  color: #444;
+  text-decoration: none;
+  list-style: none;
+  -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+  -webkit-text-size-adjust: none;
+}
+.banner .other-btns > div {
+  position: relative;
+}
+.banner .other-btns > div > a > span {
+  color: #ffffff;
+}
+.banner .other-btns > div .sub-menu {
+  display: none;
+  position: absolute;
+  left: -1px;
+  bottom: 52px;
+}
+.banner .other-btns > div .sub-menu > a {
+  border-top: 1px solid #fff;
+  border-left: 1px solid #fff;
+  border-right: 1px solid #fff;
+}
+.banner .other-btns > div .sub-menu > a span {
+  color: #ffffff;
+}
+.banner .other-btns > div .sub-menu > a i {
+  color: #ffffff;
+  font-size: 30px;
+  margin-right: 10px;
+  vertical-align: middle;
+  display: inline-block;
+}
+.banner .other-btns > div .sub-menu > a:hover {
+  color: #444444;
+}
+.banner .other-btns > div .sub-menu > a:hover i {
+  color: #cc3333;
+}
+.banner .other-btns > div:hover {
+  background: #fff;
+}
+.banner .other-btns > div:hover > a > span {
+  color: #444444;
+}
+.banner .other-btns > div:hover > a {
+  background: #fff;
+  color: #444444;
+}
+.banner .other-btns > div:hover > a .img {
+  background-position: bottom;
+}
+.banner .other-btns > div:hover .sub-menu {
+  display: inline-block;
+}

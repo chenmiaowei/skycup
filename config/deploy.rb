@@ -2,8 +2,8 @@
 lock '3.5.0'
 
 set :application, 'yii'
-#set :repo_url, 'git@github.com:chenmiaowei/zhenhuixuan-api.git'
-set :scm, :copy
+set :repo_url, 'git@github.com:chenmiaowei/skycup.git'
+#set :scm, :copy
 set :exclude_dir, "{.svn,.git,vendor,lib,Gemfile,Gemfile.*,Capfile,Uploads,runtime,tests,}"
 
 
@@ -109,7 +109,7 @@ namespace :deploy do
     end
   end
 
-  #before :started, :update_source
+  before :started, :update_source
   after :publishing, :restart
   #after :restart, :migrate
 

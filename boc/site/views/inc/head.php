@@ -25,11 +25,13 @@ echo empty($header['title']) ? '':'-'.$header['title'];?></title>
 	echo static_file('jquery.cookie.js');
 
 	// echo static_file('web/css/style.css');
+	echo static_file('css/font-awesome.min.css');
+	echo static_file('css/font-awesome-ie7.min.css');
 	echo static_file('web/css/page.css');
 	echo static_file('web/css/dest/postcss.css');
 	echo static_file('web/css/dest/iconfont.css');
 	echo static_file('web/css/dest/swiper.min.css');
-
+    echo static_file('web/css/my.css');
 ?>
 <!--[if IE 6]>
 	<?php

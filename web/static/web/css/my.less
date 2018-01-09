@@ -1,0 +1,58 @@
+@import "common";
+
+.banner {
+  .other-btns {
+    > div {
+      position: relative;
+      > a > span {
+        color: #ffffff;
+      }
+      .sub-menu {
+        display: none;
+        position: absolute;
+        left: -1px;
+        bottom: 52px;
+        & > a {
+          border-top: 1px solid #fff;
+          border-left: 1px solid #fff;
+          border-right: 1px solid #fff;
+          span {
+            color: #ffffff;
+          }
+          i {
+            color: #ffffff;
+            font-size: 30px;
+            margin-right: 10px;
+            vertical-align: middle;
+            display: inline-block;
+          }
+
+          &:hover {
+            color: #444444;
+            i {
+              color: #cc3333;
+            }
+          }
+        }
+      }
+      &:hover {
+        background: #fff;
+
+        > a > span {
+          color: #444444;
+        }
+        > a {
+          background: #fff;
+          color: #444444;
+          .img {
+            background-position: bottom;
+          }
+        }
+        .sub-menu {
+          display: inline-block;
+        }
+      }
+    }
+  }
+}
+
