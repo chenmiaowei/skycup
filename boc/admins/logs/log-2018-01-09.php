@@ -49,3 +49,4 @@ ERROR - 2018-01-09 21:37:43 --> Severity: Notice  --> Only variable references s
 ERROR - 2018-01-09 21:37:43 --> Could not find the language line "conent"
 ERROR - 2018-01-09 21:37:46 --> Severity: Notice  --> Only variable references should be returned by reference /Users/air/Documents/personal/skycup/boc/libs/ci/core/Common.php 264
 ERROR - 2018-01-09 21:37:54 --> Severity: Notice  --> Only variable references should be returned by reference /Users/air/Documents/personal/skycup/boc/libs/ci/core/Common.php 264
+ERROR - 2018-01-09 23:14:12 --> Severity: Notice  --> Only variable references should be returned by reference /Users/air/Documents/personal/skycup/boc/libs/ci/core/Common.php 264

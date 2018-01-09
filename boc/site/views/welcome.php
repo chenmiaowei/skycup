@@ -189,8 +189,8 @@ $tzlist = $CI->marticle->get_list(5, 0, false, array('cid' => 4, 'audit' => 1, '
         <div class="bus-col">
             <h2>天壹业务</h2>
             <div class="line"></div>
-            <a class="icon-row-right-box" href="<?php echo site_url('bus'); ?>">
-                <div class="icon-row-right"></div>
+            <a href="<?php echo site_url('bus'); ?>">
+                私募股权投资
             </a>
         </div>
         <!-- 注意format-1命名 -->
