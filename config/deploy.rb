@@ -63,6 +63,15 @@ namespace :deploy do
     end
   end
 
+    desc 'Restart PHP'
+    task :restart_php do
+      on roles(:all) do
+        puts "Restart PHP"
+        execute "service", "httpd", "restart"
+      end
+    end
+
+
   desc 'Migration database'
   task :migrate do
     on roles(:all) do
@@ -111,7 +120,7 @@ namespace :deploy do
 
   before :started, :update_source
   after :publishing, :restart
-  #after :restart, :migrate
+  after :restart, :restart_php
 
   after :restart, :clear_cache do
     on roles(:web), in: :groups, limit: 3, wait: 10 do
