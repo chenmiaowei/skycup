@@ -100,7 +100,7 @@ $this->db->update('article',$data);
 
     <div class="details">
         <h1><?php echo $it['title'] ?></h1>
-        <div class="time"><?php echo date('Y.m.d',$it['timeline']); ?></div>
+<!--        <div class="time">--><?php //echo date('Y.m.d',$it['timeline']); ?><!--</div>-->
         <div class="dis">
             <?php echo $it['content']; ?>
         </div>
