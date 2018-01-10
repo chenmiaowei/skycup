@@ -1664,7 +1664,6 @@
   vertical-align: middle;
   width: 26px;
   height: 26px;
-  background: url(../../img/icon-in-pc.png) no-repeat center;
   margin-right: 35px;
 }
 
@@ -3100,7 +3099,6 @@
     /*50*/
     height: 11px;
     height: 0.694444rem;
-    background: url(../../img/icon-in-pc.png) no-repeat center;
     background-size: cover;
     margin-right: 6px;
     margin-right: 0.416667rem;
