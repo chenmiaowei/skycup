@@ -56,8 +56,6 @@
   }
 }
 
-
-
 .ban .other-btns {
   position: absolute;
   left: 6%;
@@ -167,7 +165,6 @@
   }
 }
 
-
 .bus {
   .bus-col {
     a {
@@ -180,7 +177,7 @@
 }
 
 .footer {
-  >div {
+  > div {
     .col-md-4 {
       width: 50%;
       margin: 0;
@@ -192,8 +189,44 @@
     }
   }
 }
+
 .footer .footer-icon .icon-in {
   i {
     font-size: 30px;
+  }
+}
+
+.section-container {
+  .section:first-child {
+    padding-top: 20px;
+  }
+}
+
+.pro-img {
+  position: relative;
+  .go-next {
+    position: absolute;
+    right: 100px;
+    top: 50%;
+    i {
+      font-size: 100px;
+      .opacity(0.3);
+    }
+    &:hover {
+      i {
+        .opacity(1);
+      }
+    }
+  }
+}
+
+.section.first {
+  .pro-content {
+    top: 60% !important;
+  }
+}
+.section.last {
+  .go-next {
+    display: none !important;
   }
 }
