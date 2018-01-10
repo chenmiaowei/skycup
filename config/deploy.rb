@@ -61,6 +61,10 @@ namespace :deploy do
       upload!("web/.htaccess", "#{current_path}/web")
       # Your restart mechanism here, for example:
 
+         execute :mkdir, "-p", "#{shared_path}/upload"
+          execute :ln, "-sf", "#{shared_path}/upload", "#{current_path}/web/upload"
+          execute :chown, "-R", "#{httpd_user}:#{httpd_group}", "#{shared_path}/upload"
+
        execute :chmod, "-R", "0744", current_path
        execute :chown, "-RH", "--dereference", "#{httpd_user}:#{httpd_group}", current_path
     end
