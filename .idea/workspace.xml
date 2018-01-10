@@ -2,9 +2,300 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="76446ef5-2a93-44b4-a43a-88f47fea51a6" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/boc/site/logs/log-2018-01-10.php" afterPath="$PROJECT_DIR$/boc/site/logs/log-2018-01-10.php" />
-      <change beforePath="$PROJECT_DIR$/config/deploy.rb" afterPath="$PROJECT_DIR$/config/deploy.rb" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/09/12/150520443840184n4tr.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/09/12/150520446517679b91q.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/09/12/15052044819615d6ehr.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/09/12/15052047640459rbza8.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/09/12/1505204796387hh8ob.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/09/12/150520822767rv0cg.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/09/12/15052082361543h4e9g.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/09/12/150521302627123a78p.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/09/12/15052131092518ees91.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/09/12/15052131411917llinl.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/09/12/thumbnail/150520443840184n4tr.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/09/12/thumbnail/150520446517679b91q.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/09/12/thumbnail/15052044819615d6ehr.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/09/12/thumbnail/15052047640459rbza8.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/09/12/thumbnail/1505204796387hh8ob.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/09/12/thumbnail/150520822767rv0cg.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/09/12/thumbnail/15052082361543h4e9g.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/09/12/thumbnail/150521302627123a78p.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/09/12/thumbnail/15052131092518ees91.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/09/12/thumbnail/15052131411917llinl.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/09/13/15052675996528d7h0r.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/09/13/150526760960270q6ug.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/09/13/15052679241182mk0k1.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/09/13/15052679537255mus5f.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/09/13/15052680071959f622u.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/09/13/15052680144113tabmw.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/09/13/15052683085603rrx8b.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/09/13/15052683879744e6q0s.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/09/13/15052684408992s8o0z.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/09/13/15052684801155atzvt.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/09/13/15052700062385n6z7a.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/09/13/15052700551438wi5z3.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/09/13/15052705791218c3wwb.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/09/13/15052706003257jgmiy.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/09/13/150527062827393wkom.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/09/13/15052852965303lnf07.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/09/13/1505285314998403oto.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/09/13/15052853485383ke2k6.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/09/13/15052857715577aezo3.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/09/13/15052858591662515v0.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/09/13/15052858869799apa2z.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/09/13/15052859111728maax0.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/09/13/1505285935322711zct.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/09/13/thumbnail/15052675996528d7h0r.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/09/13/thumbnail/150526760960270q6ug.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/09/13/thumbnail/15052679241182mk0k1.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/09/13/thumbnail/15052679537255mus5f.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/09/13/thumbnail/15052680071959f622u.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/09/13/thumbnail/15052680144113tabmw.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/09/13/thumbnail/15052683085603rrx8b.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/09/13/thumbnail/15052683879744e6q0s.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/09/13/thumbnail/15052684408992s8o0z.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/09/13/thumbnail/15052684801155atzvt.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/09/13/thumbnail/15052700062385n6z7a.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/09/13/thumbnail/15052700551438wi5z3.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/09/13/thumbnail/15052705791218c3wwb.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/09/13/thumbnail/15052706003257jgmiy.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/09/13/thumbnail/150527062827393wkom.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/09/13/thumbnail/15052852965303lnf07.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/09/13/thumbnail/1505285314998403oto.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/09/13/thumbnail/15052853485383ke2k6.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/09/13/thumbnail/15052857715577aezo3.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/09/13/thumbnail/15052858591662515v0.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/09/13/thumbnail/15052858869799apa2z.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/09/13/thumbnail/15052859111728maax0.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/09/13/thumbnail/1505285935322711zct.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/09/22/15060745918617656a0.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/09/22/15060748584573hg56y.mp4" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/09/22/thumbnail/15060745918617656a0.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/09/26/15064381099232n4938.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/09/26/15064381694768xagmh.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/09/26/15064384460887u44un.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/09/26/15064384867409d8f7h.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/09/26/150643998536252wat0.jpeg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/09/26/thumbnail/15064381099232n4938.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/09/26/thumbnail/15064381694768xagmh.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/09/26/thumbnail/15064384460887u44un.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/09/26/thumbnail/15064384867409d8f7h.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/09/26/thumbnail/150643998536252wat0.jpeg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/09/27/15064450011372zgwn.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/09/27/150644570192318t08q.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/09/27/150644584032015eikx.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/09/27/15064459063165edn70.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/09/27/15064461817598i362q.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/09/27/15064462391461g5q81.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/09/27/150644669648448gjly.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/09/27/15064468826528292t1.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/09/27/15064479792647r8ya.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/09/27/15064486095041yfevw.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/09/27/15064489905803b8c91.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/09/27/15064491553519h66dy.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/09/27/1506449371034971tm5.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/09/27/150644968868495ha75.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/09/27/1506450061587qd7lj.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/09/27/150645007413093tuqw.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/09/27/15064500891523sc597.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/09/27/15064509702607pzo49.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/09/27/150645097621087al8l.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/09/27/15064509978175d5tuq.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/09/27/15064510340525unwd.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/09/27/15064510384316b2f59.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/09/27/15064510626195ptm22.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/09/27/15064510669851d1esg.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/09/27/thumbnail/15064450011372zgwn.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/09/27/thumbnail/150644570192318t08q.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/09/27/thumbnail/150644584032015eikx.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/09/27/thumbnail/15064459063165edn70.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/09/27/thumbnail/15064461817598i362q.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/09/27/thumbnail/15064462391461g5q81.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/09/27/thumbnail/150644669648448gjly.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/09/27/thumbnail/15064468826528292t1.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/09/27/thumbnail/15064479792647r8ya.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/09/27/thumbnail/15064486095041yfevw.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/09/27/thumbnail/15064489905803b8c91.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/09/27/thumbnail/15064491553519h66dy.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/09/27/thumbnail/1506449371034971tm5.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/09/27/thumbnail/150644968868495ha75.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/09/27/thumbnail/1506450061587qd7lj.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/09/27/thumbnail/150645007413093tuqw.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/09/27/thumbnail/15064500891523sc597.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/09/27/thumbnail/15064509702607pzo49.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/09/27/thumbnail/150645097621087al8l.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/09/27/thumbnail/15064509978175d5tuq.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/09/27/thumbnail/15064510340525unwd.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/09/27/thumbnail/15064510384316b2f59.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/09/27/thumbnail/15064510626195ptm22.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/09/27/thumbnail/15064510669851d1esg.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/10/06/150729842752734lkeo.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/10/06/150730016398478z9d0.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/10/06/15073014001528pcqro.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/10/06/15073027668471yr05b.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/10/06/15073034657266pbrj6.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/10/06/15073040991865l77po.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/10/06/150730450710894otsa.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/10/06/thumbnail/150729842752734lkeo.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/10/06/thumbnail/150730016398478z9d0.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/10/06/thumbnail/15073014001528pcqro.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/10/06/thumbnail/15073027668471yr05b.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/10/06/thumbnail/15073034657266pbrj6.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/10/06/thumbnail/15073040991865l77po.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/10/06/thumbnail/150730450710894otsa.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/10/07/1507305775013h4vpk.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/10/07/1507307195504h79yc.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/10/07/15073073684992xkn12.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/10/07/150730752146845vmyc.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/10/07/150730793178850ydww.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/10/07/thumbnail/1507305775013h4vpk.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/10/07/thumbnail/1507307195504h79yc.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/10/07/thumbnail/15073073684992xkn12.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/10/07/thumbnail/150730752146845vmyc.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/10/07/thumbnail/150730793178850ydww.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/10/13/15078667927094x2bp6.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/10/13/15078669179838jwcys.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/10/13/thumbnail/15078667927094x2bp6.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/10/13/thumbnail/15078669179838jwcys.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/10/15/150807620375710vh3a.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/10/15/15080764070769sma5u.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/10/15/15080766134301vgqkb.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/10/15/15080768970651owntj.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/10/15/15080779147187sp684.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/10/15/15080779198268upawp.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/10/15/15080779256626t1p0j.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/10/15/15080780970664d39nj.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/10/15/150807810163621s1ww.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/10/15/15080781065276ltnki.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/10/15/thumbnail/150807620375710vh3a.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/10/15/thumbnail/15080764070769sma5u.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/10/15/thumbnail/15080766134301vgqkb.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/10/15/thumbnail/15080768970651owntj.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/10/15/thumbnail/15080779147187sp684.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/10/15/thumbnail/15080779198268upawp.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/10/15/thumbnail/15080779256626t1p0j.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/10/15/thumbnail/15080780970664d39nj.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/10/15/thumbnail/150807810163621s1ww.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/10/15/thumbnail/15080781065276ltnki.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/10/16/1508126270649hjc4b.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/10/16/15081597955204utyyg.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/10/16/thumbnail/1508126270649hjc4b.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/10/16/thumbnail/15081597955204utyyg.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/10/23/150869161826250gugl.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/10/23/15086916260331bdwfd.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/10/23/15086916519018nxesv.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/10/23/150869167336258lxbq.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/10/23/15086921197814gk7wq.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/10/23/1508694666811kf1v6.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/10/23/thumbnail/1508694666811kf1v6.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/10/25/15089100012268m0zy.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/10/25/15089100856085xjwx0.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/10/25/15089104354706iyyus.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/10/25/15089104379959b23p8.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/10/25/1508910645088q06zn.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/10/25/15089108739219fing0.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/10/25/15089121182351pt6tf.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/10/25/15089205612689akctu.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/10/25/15089211335019kog36.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/10/25/150892113906452idoh.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/10/25/15089215260638xmrng.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/10/25/15089217921302smel6.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/10/25/15089217969309yu6ck.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/10/25/15089218020204ivs06.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/10/25/15089221377741bjccv.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/10/25/15089221495176ro61i.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/10/25/15089230479821py5bc.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/10/25/150892327380412cheq.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/10/25/15089354580502emi1z.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/10/25/15089362318624p2g1o.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/10/25/1508936729863wad7n.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/10/25/1508937274117jqtq0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/10/25/15089374510796nsh23.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/10/25/1508938075903wnqwd.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/10/25/15089386670334gbqcl.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/10/25/150893867033846qp59.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/10/25/15089413908743rfvpe.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/10/25/15089413957615bxhd0.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/10/25/15089414198957q7osb.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/10/25/150894142693654bxbd.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/10/25/1508941708823546o84.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/10/25/150894178873755dsya.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/10/25/1508941859603hvirz.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/10/25/15089421705434yz2rn.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/10/25/1508942177514c4ta7.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/10/25/15089424440825nfa6o.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/10/25/1508942459197tyloz.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/10/25/15089426218392rhyhr.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/10/25/150894262761118adlk.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/10/25/15089429138431ddf88.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/10/25/15089429182246fv0wb.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/10/25/15089430877987qi4rn.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/10/25/15089430970208v1b3d.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/10/25/1508943326248zcmzf.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/10/25/15089433339167chuih.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/10/25/15089435280018iogqb.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/10/25/thumbnail/15089100012268m0zy.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/10/25/thumbnail/15089100856085xjwx0.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/10/25/thumbnail/15089104354706iyyus.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/10/25/thumbnail/15089104379959b23p8.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/10/25/thumbnail/1508910645088q06zn.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/10/25/thumbnail/15089108739219fing0.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/10/25/thumbnail/15089121182351pt6tf.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/10/25/thumbnail/15089205612689akctu.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/10/25/thumbnail/15089211335019kog36.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/10/25/thumbnail/150892113906452idoh.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/10/25/thumbnail/15089215260638xmrng.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/10/25/thumbnail/15089217921302smel6.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/10/25/thumbnail/15089217969309yu6ck.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/10/25/thumbnail/15089218020204ivs06.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/10/25/thumbnail/15089221377741bjccv.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/10/25/thumbnail/15089221495176ro61i.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/10/25/thumbnail/15089230479821py5bc.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/10/25/thumbnail/150892327380412cheq.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/10/25/thumbnail/15089354580502emi1z.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/10/25/thumbnail/15089362318624p2g1o.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/10/25/thumbnail/1508936729863wad7n.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/10/25/thumbnail/1508937274117jqtq0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/10/25/thumbnail/15089374510796nsh23.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/10/25/thumbnail/1508938075903wnqwd.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/10/25/thumbnail/15089386670334gbqcl.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/10/25/thumbnail/150893867033846qp59.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/10/25/thumbnail/15089413908743rfvpe.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/10/25/thumbnail/15089413957615bxhd0.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/10/25/thumbnail/15089414198957q7osb.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/10/25/thumbnail/150894142693654bxbd.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/10/25/thumbnail/1508941708823546o84.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/10/25/thumbnail/150894178873755dsya.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/10/25/thumbnail/1508941859603hvirz.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/10/25/thumbnail/15089421705434yz2rn.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/10/25/thumbnail/1508942177514c4ta7.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/10/25/thumbnail/15089424440825nfa6o.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/10/25/thumbnail/1508942459197tyloz.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/10/25/thumbnail/15089426218392rhyhr.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/10/25/thumbnail/150894262761118adlk.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/10/25/thumbnail/15089429138431ddf88.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/10/25/thumbnail/15089429182246fv0wb.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/10/25/thumbnail/15089430877987qi4rn.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/10/25/thumbnail/15089430970208v1b3d.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/10/25/thumbnail/1508943326248zcmzf.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/10/25/thumbnail/15089433339167chuih.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/10/25/thumbnail/15089435280018iogqb.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/10/26/15090272230433a3q7y.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/10/26/15090294490134dizfs.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/10/26/15090321049606ico7b.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/10/26/thumbnail/15090272230433a3q7y.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/10/26/thumbnail/15090294490134dizfs.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/10/26/thumbnail/15090321049606ico7b.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/10/27/15091139916795j9viy.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/10/27/15091140980618nmy3.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/10/27/15091142969735ik0wt.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/10/27/thumbnail/15091139916795j9viy.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/10/27/thumbnail/15091140980618nmy3.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/10/27/thumbnail/15091142969735ik0wt.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/11/02/15095527656482xt0l3.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/upload/2017/11/02/thumbnail/15095527656482xt0l3.jpg" afterPath="" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -88,11 +379,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="deploy.rb" pinned="false" current-in-tab="true">
+      <file leaf-file-name="deploy.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/deploy.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="52" column="34" lean-forward="true" selection-start-line="52" selection-start-column="34" selection-end-line="52" selection-end-column="34" />
+            <state relative-caret-position="114">
+              <caret line="55" column="5" lean-forward="false" selection-start-line="55" selection-start-column="5" selection-end-line="55" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -102,17 +403,7 @@
         <entry file="file://$PROJECT_DIR$/../liulianpai/api/config/deploy.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="186">
-              <caret line="81" column="84" lean-forward="true" selection-start-line="79" selection-start-column="5" selection-end-line="81" selection-end-column="84" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="my.less" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/static/web/css/my.less">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="945">
-              <caret line="63" column="12" lean-forward="false" selection-start-line="63" selection-start-column="12" selection-end-line="63" selection-end-column="12" />
+              <caret line="81" column="84" lean-forward="false" selection-start-line="79" selection-start-column="5" selection-end-line="81" selection-end-column="84" />
               <folding />
             </state>
           </provider>
@@ -185,6 +476,7 @@
         <option value="$PROJECT_DIR$/boc/site/views/new.php" />
         <option value="$PROJECT_DIR$/boc/site/views/details.php" />
         <option value="$PROJECT_DIR$/config/deploy.rb" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -200,7 +492,7 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="PHP5.6" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="181" />
+    <option name="x" value="298" />
     <option name="y" value="28" />
     <option name="width" value="1257" />
     <option name="height" value="822" />
@@ -395,11 +687,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/web/static/web/css" />
       <recent name="$PROJECT_DIR$/web/static/web" />
       <recent name="$PROJECT_DIR$/web" />
       <recent name="$PROJECT_DIR$/web/admin" />
-      <recent name="$PROJECT_DIR$" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -431,16 +723,15 @@
       <workItem from="1515427391695" duration="942000" />
       <workItem from="1515503019503" duration="9463000" />
       <workItem from="1515555791624" duration="3011000" />
-      <workItem from="1515586384276" duration="84000" />
+      <workItem from="1515586384276" duration="221000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13572000" />
+    <option name="totallyTimeSpent" value="13709000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="181" y="28" width="1257" height="822" extended-state="0" />
-    <editor active="true" />
+    <frame x="298" y="28" width="1257" height="822" extended-state="0" />
     <layout>
       <window_info id="PlantUML" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -450,7 +741,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3645117" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26710635" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26710635" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Tail" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -477,14 +768,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/web/static/web/css/my.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="855">
-          <caret line="57" column="0" lean-forward="true" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/boc/site/views/inc/moblienav.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="645">
@@ -832,15 +1115,23 @@
     <entry file="file://$PROJECT_DIR$/../liulianpai/api/config/deploy.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="186">
-          <caret line="81" column="84" lean-forward="true" selection-start-line="79" selection-start-column="5" selection-end-line="81" selection-end-column="84" />
+          <caret line="81" column="84" lean-forward="false" selection-start-line="79" selection-start-column="5" selection-end-line="81" selection-end-column="84" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config/deploy.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="52" column="34" lean-forward="true" selection-start-line="52" selection-start-column="34" selection-end-line="52" selection-end-column="34" />
+        <state relative-caret-position="114">
+          <caret line="55" column="5" lean-forward="false" selection-start-line="55" selection-start-column="5" selection-end-line="55" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
           <folding />
         </state>
       </provider>
