@@ -57,6 +57,117 @@
 }
 
 
+
+.ban .other-btns {
+  position: absolute;
+  left: 6%;
+  bottom: 40px;
+  border: 1px solid #fff;
+  z-index: 20;
+}
+
+.ban .other-btns a {
+  display: block;
+  width: 175px;
+  height: 30px;
+  vertical-align: middle;
+  text-align: center;
+  color: #fff;
+  line-height: 30px;
+  padding: 11px 0;
+}
+
+.ban .other-btns a span {
+  vertical-align: middle;
+  display: inline-block;
+  font-size: 14px;
+}
+
+.ban .other-btns a .img {
+  width: 30px;
+  height: 30px;
+  background: url(../../img/icon-ban-1.png) no-repeat top;
+  margin-right: 10px;
+}
+
+.ban .other-btns a .img2 {
+  background: url(../../img/icon-ban-2.png) no-repeat top;
+}
+
+.ban .other-btns a .img3 {
+  background: url(../../img/icon-ban-3.png) no-repeat top;
+}
+
+.ban .other-btns a.other-btns-a, .ban .other-btns div.other-btns-a {
+  border-right: 1px solid #fff;
+}
+
+.ban .other-btns a:hover {
+  background: #fff;
+  color: #cc3333;
+}
+
+.ban .other-btns a:hover .img {
+  background-position: bottom;
+}
+
+.ban {
+  .other-btns {
+    > div {
+      position: relative;
+      > a > span {
+        color: #ffffff;
+      }
+      .sub-menu {
+        display: none;
+        position: absolute;
+        left: -1px;
+        bottom: 52px;
+        & > a {
+          border-top: 1px solid #fff;
+          border-left: 1px solid #fff;
+          border-right: 1px solid #fff;
+          span {
+            color: #ffffff;
+          }
+          i {
+            color: #ffffff;
+            font-size: 30px;
+            margin-right: 10px;
+            vertical-align: middle;
+            display: inline-block;
+          }
+
+          &:hover {
+            color: #444444;
+            i {
+              color: #cc3333;
+            }
+          }
+        }
+      }
+      &:hover {
+        background: #fff;
+
+        > a > span {
+          color: #444444;
+        }
+        > a {
+          background: #fff;
+          color: #444444;
+          .img {
+            background-position: bottom;
+          }
+        }
+        .sub-menu {
+          display: inline-block;
+        }
+      }
+    }
+  }
+}
+
+
 .bus {
   .bus-col {
     a {

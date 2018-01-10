@@ -41,8 +41,8 @@ $tzlist = $CI->marticle->get_list(5, 0, false, array('cid' => 4, 'audit' => 1, '
                     <?php } ?>
                     <div class="cent-cont">
                         <p class="ch"><?php echo $v['title'] ?></p>
-                        <p class="en"><?php echo $v['title_en'] ?></p>
-                        <a href="<?php echo $v['links'] ?>" class="link">See more</a>
+<!--                        <p class="en">--><?php //echo $v['title_en'] ?><!--</p>-->
+<!--                        <a href="--><?php //echo $v['links'] ?><!--" class="link">See more</a>-->
                     </div>
                 </li>
             <?php endforeach ?>
