@@ -31,7 +31,7 @@
     <!-- start 列表页面banner -->
     <div class="ban bus-ban" data-img="<?php if(!empty($bannerit)){echo UPLOAD_URL.tag_photo($bannerit['photo']);}else{ echo static_file('img/ban-1.jpg'); } ?>">
         <h2><?php echo tag_columns(3); ?></h2>
-        <h3>Our Business</h3>
+        <h3>Skycus Watch</h3>
         <div class="other-btns f-cb">
             <div class="fl other-btns-a">
                 <a href="javascript:void(0);">
