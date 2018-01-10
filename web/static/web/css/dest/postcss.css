@@ -2158,7 +2158,7 @@
 
 .contact-box .address-box .address-li {
     position: relative;
-    padding: 110px 100px;
+    padding: 110px 80px;
     color: #fff;
     border-bottom: 1px solid #484848;
     cursor: pointer;
@@ -2171,7 +2171,7 @@
 }
 
 .contact-box .address-box .address-li .contect-text {
-    width: 312px;
+    width: 350px;
     padding-left: 30px;
     line-height: 2;
     font-size: 14px;
