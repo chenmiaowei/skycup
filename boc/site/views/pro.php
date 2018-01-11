@@ -119,7 +119,7 @@ $ctypelist = $CI->mcoltypes->get_all(array('cid' => 4, 'show' => 1), 'id,title',
                         <!-- 1260*990 -->
                         <div class="pro-img fr"
                              style="background: url(<?php echo UPLOAD_URL . tag_photo($v['photo']); ?>) no-repeat center; background-size: cover;">
-                            <a  class="go-next"><i class="fa fa-chevron-circle-down"></i></a>
+                            <?php echo $k===count($list)-1?' <a  class="go-next"><i class="fa fa-chevron-circle-up"></i></a>' : '<a  class="go-previous"><i class="fa fa-chevron-circle-down"></i></a>' ?>
                         </div>
                     </div>
                 <?php } ?>
@@ -172,7 +172,7 @@ $ctypelist = $CI->mcoltypes->get_all(array('cid' => 4, 'show' => 1), 'id,title',
                         <!-- 1260*1080 -->
                         <div class="pro-img fr"
                              style="background: url(<?php echo UPLOAD_URL . tag_photo($v['photo']); ?>) no-repeat center; background-size: cover;">
-                            <a  class="go-next"><i class="fa fa-chevron-circle-down"></i></a>
+                            <?php echo $k===count($list)-1?' <a  class="go-next"><i class="fa fa-chevron-circle-up"></i></a>' : '<a  class="go-previous"><i class="fa fa-chevron-circle-down"></i></a>' ?>
                         </div>
                     </div>
                 </div>
@@ -197,7 +197,7 @@ $ctypelist = $CI->mcoltypes->get_all(array('cid' => 4, 'show' => 1), 'id,title',
                         <!-- 1260*1080 -->
                         <div class="pro-img fr"
                              style="background: url(<?php echo UPLOAD_URL . tag_photo($v['photo']); ?>) no-repeat center; background-size: cover;">
-                            <a  class="go-next"><i class="fa fa-chevron-circle-down"></i></a>
+                            <?php echo $k===count($list)-1?' <a  class="go-next"><i class="fa fa-chevron-circle-up"></i></a>' : '<a  class="go-previous"><i class="fa fa-chevron-circle-down"></i></a>' ?>
                         </div>
                     </div>
                 </div>
@@ -275,6 +275,9 @@ echo static_file('comm.js');
         });
         $('.go-next').click(function () {
             $.fn.fullpage.moveSectionDown();
+        })
+         $('.go-previous').click(function () {
+            $.fn.fullpage.moveTo('firstSlide', 2);
         })
     });
 </script>

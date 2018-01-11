@@ -204,7 +204,7 @@
 
 .pro-img {
   position: relative;
-  .go-next {
+  .go-next, .go-previous {
     position: absolute;
     right: 100px;
     top: 50%;
@@ -218,6 +218,9 @@
       }
     }
   }
+  .go-previous {
+    display: none;
+  }
 }
 
 .section.first {
@@ -225,8 +228,12 @@
     top: 60% !important;
   }
 }
+
 .section.last {
   .go-next {
     display: none !important;
+  }
+  .go-previous {
+    display: block !important;
   }
 }
