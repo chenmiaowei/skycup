@@ -277,7 +277,7 @@ echo static_file('comm.js');
             $.fn.fullpage.moveSectionDown();
         })
          $('.go-previous').click(function () {
-            $.fn.fullpage.moveTo('firstSlide', 2);
+            $.fn.fullpage.moveTo(1);
         })
     });
 </script>
