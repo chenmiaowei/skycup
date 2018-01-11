@@ -201,8 +201,8 @@
 .pro-img .go-next,
 .pro-img .go-previous {
   position: absolute;
-  right: 100px;
-  top: 50%;
+  right: 50px;
+  bottom: 50px;
 }
 .pro-img .go-next i,
 .pro-img .go-previous i {
