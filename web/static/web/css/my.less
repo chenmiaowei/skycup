@@ -206,11 +206,36 @@
   }
 }
 
+
 .footer .footer-icon .icon-in {
   i {
     font-size: 30px;
   }
 }
+
+@media screen and (max-width: 1080px) {
+  .footer {
+    padding: 0;
+    > div {
+      .col-md-4 {
+        width: 100%;
+        margin: 0;
+        text-align: center;
+        display: inline-block;
+        border-top: solid 1px #ededed;
+        padding: 50px 0;
+        p {
+          line-height: 32px;
+          font-size: 14px;
+        }
+        a {
+          display: inline-block;
+        }
+      }
+    }
+  }
+}
+
 
 .section-container {
   .section:first-child {

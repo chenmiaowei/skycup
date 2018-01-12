@@ -200,6 +200,26 @@
 .footer .footer-icon .icon-in i {
   font-size: 30px;
 }
+@media screen and (max-width: 1080px) {
+  .footer {
+    padding: 0;
+  }
+  .footer > div .col-md-4 {
+    width: 100%;
+    margin: 0;
+    text-align: center;
+    display: inline-block;
+    border-top: solid 1px #ededed;
+    padding: 50px 0;
+  }
+  .footer > div .col-md-4 p {
+    line-height: 32px;
+    font-size: 14px;
+  }
+  .footer > div .col-md-4 a {
+    display: inline-block;
+  }
+}
 .section-container .section:first-child {
   padding-top: 20px;
 }

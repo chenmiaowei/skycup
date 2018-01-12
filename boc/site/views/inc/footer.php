@@ -1,6 +1,8 @@
 <div class="footer">
     <div class="footer-left f-cb">
-        <a class="footer-logo fl col-md-4" href="<?php echo site_url(''); ?>"></a>
+        <div class="fl col-md-4">
+            <a class="footer-logo" href="<?php echo site_url(''); ?>"></a>
+        </div>
         <div class="footer-icon fr col-md-4">
             <a href="" class="icon-in"><i class="fa fa-weixin"></i></a>
             <a href="" class="icon-in"><i class="fa fa-weibo"></i></a>
