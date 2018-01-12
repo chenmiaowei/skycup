@@ -1741,6 +1741,7 @@
   color: #333;
   font-weight: normal;
   padding-bottom: 20px;
+  text-align: center;
 }
 .about-list .about-box .about-box-text:hover{
   background: #cc3333;
