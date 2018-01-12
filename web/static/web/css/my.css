@@ -263,9 +263,25 @@
 .section.last .go-previous {
   display: block !important;
 }
-.about-list .about-box .about-box-text .about-msg .about-exp .long {
+.about-list .about-box .about-box-text .about-msg .about-exp .long,
+.about-list .about-box .about-box-text:hover .about-msg .about-exp .long {
+  color: #ffffff;
+  margin-top: 10px;
+}
+.about-list .about-box .about-box-text .about-msg .about-exp .long p,
+.about-list .about-box .about-box-text:hover .about-msg .about-exp .long p {
   color: #ffffff;
 }
-.about-list .about-box .about-box-text .about-msg .about-exp .long p {
-  color: #ffffff;
+@media screen and (max-width: 1140px) {
+  .about-list .about-box .about-box-text .about-msg .about-exp .long,
+  .about-list .about-box .about-box-text:hover .about-msg .about-exp .long {
+    color: #ffffff;
+    margin-top: 5px;
+  }
+  .about-list .about-box .about-box-text .about-msg .about-exp .long p,
+  .about-list .about-box .about-box-text:hover .about-msg .about-exp .long p {
+    color: #ffffff;
+    font-size: 12px;
+    line-height: 18px;
+  }
 }
