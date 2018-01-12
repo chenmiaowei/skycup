@@ -297,7 +297,9 @@
 <script type="text/javascript">
 	require(['adminer/js/ui','adminer/js/media','bootstrap-datetimepicker.zh'],function(ui,media){
 		$('.timepicker').datetimepicker({'language':'zh-CN','format':'yyyy/mm/dd hh:ii:ss','todayHighlight':true});
+		<?php if($this->cid != 6 ){ ?>
 		ui.editor_create('content');
+		<?php } ?>
 		media.init();
 
 		var articles_photos = <?php echo json_encode(one_upload($it['photo'])) ?>;

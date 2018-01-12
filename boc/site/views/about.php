@@ -1,6 +1,6 @@
 <?php 
     $CI->load->model('article_model','marticle');
-    $zzlist = $CI->marticle->get_all(array('cid'=>18,'audit'=>1),'id,photo,title,introduction,shortint');
+    $zzlist = $CI->marticle->get_all(array('cid'=>18,'audit'=>1),'id,photo,title,introduction,content,shortint');
 
     $CI->load->model('columnpic_model','mcolumnpic');
     $bannerit = $CI->mcolumnpic->get_one(array('cid'=>21,'audit'=>1,'ctype'=>2),'id,photo');    
