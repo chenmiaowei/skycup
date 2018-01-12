@@ -92,7 +92,7 @@
             <div class="bus-img <?php if(($k%2)==0) { echo'fl'; }else{ echo 'fr';} ?>" style="background: url(<?php echo UPLOAD_URL.tag_photo($v['photo']); ?>) no-repeat center; background-size: cover;"></div>
             <div class="bus-text <?php if(($k%2)==0) { echo'fr'; }else{ echo 'fl';} ?>">
                 <h2><?php echo $v['title'] ?></h2>
-                <div class="bus-dis"><?php echo $v['introduction'] ?></div>
+                <div class="bus-dis"><?php echo $v['content'] ?></div>
             </div>
         </div>
         <?php endforeach ?>
