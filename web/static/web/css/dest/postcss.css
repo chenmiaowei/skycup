@@ -2044,7 +2044,7 @@
 
 .about-list .about-box .about-box-text .about-msg .about-exp {
     position: absolute;
-    padding: 0 100px 0 300px;
+    padding: 0 60px 0 300px;
     top: 50%;
     -webkit-transform: translate(0, -50%);
     transform: translate(0, -50%);
