@@ -2674,12 +2674,15 @@
 .pro-list .pro-box .pro-text .pro-content .title {
     font-size: 48px;
     padding: 40px 0 55px;
+    color: #ffffff;
+
 }
 
 .pro-list .pro-box .pro-text .pro-content .dis {
     font-size: 24px;
     padding-bottom: 95px;
     line-height: 1.5;
+    color: #ffffff;
 }
 
 .pro-list .pro-box .pro-text .pro-content .link {
