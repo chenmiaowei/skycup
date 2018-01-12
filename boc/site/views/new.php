@@ -166,6 +166,44 @@ $bannerit = $CI->mcolumnpic->get_one(array('cid' => 21, 'audit' => 1, 'ctype' =>
 </div>
 <!-- start PC端新闻展示 -->
 
+<div class="h5 new-h5">
+    <div class="new-h5-top">
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <?php foreach ($newslist as $k => $v): ?>
+                    <a class="swiper-slide" href="<?php echo site_url('details/' . $v['id']); ?>">
+                        <div class="img"
+                             style="background: url(<?php echo UPLOAD_URL . tag_photo($v['photo']); ?>) no-repeat center; background-size: cover"></div>
+                        <div class="text">
+                            <div class="title"><?php echo $v['title'] ?></div>
+                            <div class="time"><?php date('Y-m-d', $v['timeline']) ?></div>
+                            <div class="dis"><?php echo $v['introduction'] ?></div>
+                            <div class="see">
+                                <span class="iconfont ty-arrowll-copy"></span>
+                            </div>
+                        </div>
+                    </a>
+                <?php endforeach ?>
+
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </div>
+    <div class="new-h5-list">
+        <?php foreach ($list as $k => $v): ?>
+            <a class="new-h5-box" href="<?php echo site_url('details/' . $v['id']); ?>">
+                <div class="time"><?php date('Y-m-d', $v['timeline']) ?></div>
+                <p class="title"><?php date('Y-m-d', $v['timeline']) ?></p>
+                <div class="dis">
+                    <?php echo $v['introduction'] ?>
+                </div>
+                <div class="link">查看详情</div>
+            </a>
+        <?php endforeach ?>
+    </div>
+</div>
+
+
 <!-- start 底部 -->
 <?php include_once VIEWS . 'inc/footer.php'; ?>
 <!-- end 底部 -->
