@@ -180,6 +180,14 @@
   padding: 0 0 0 10%;
   line-height: 1;
 }
+@media screen and (max-width: 1140px) {
+  .ban .other-btns {
+    display: none;
+  }
+  .banner .other-btns {
+    display: none;
+  }
+}
 .footer > div .col-md-4 {
   width: 50%;
   margin: 0;

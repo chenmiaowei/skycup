@@ -91,7 +91,7 @@
             <div class="sub-nav-box"><a href="<?php echo site_url('about'); ?>" class="active">关于公司</a></div>
             <div class="sub-nav-box"><a href="<?php echo site_url('his'); ?>">发展历程</a></div>
             <div class="sub-nav-box"><a href="<?php echo site_url('team'); ?>">团队介绍</a></div>
-            <div class="sub-nav-box"><a href="<?php echo site_url('invest'); ?>">投资管理</a></div>
+            <div class="sub-nav-box"><a href="<?php echo site_url('invest'); ?>">投资策略</a></div>
         </div>
     </div>
     <!-- start 列表页小标题 -->
@@ -104,7 +104,7 @@
     <div class="about-list-text">
         <h4>专注行业</h4>
         <!-- 以下的文字与下面列表的一致 -->
-        <p>我们关注TMT、文化体育、大健康等市场空间大、未来增长较为确定的行业。</p>
+        <p>天壹资本专注于投资TMT、文化体育、医疗健康等领域的成长期优秀企业。</p>
     </div>
     
     <!-- start  行业列表 -->

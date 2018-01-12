@@ -2889,7 +2889,7 @@
     color: #fff;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1140px) {
     .pc {
         display: none;
     }

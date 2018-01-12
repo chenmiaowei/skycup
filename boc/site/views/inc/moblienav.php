@@ -13,10 +13,9 @@
             <span class="iconfont ty-arrowll-copy"></span>
         </div>
         <div class="sub-nav-box">
-            <a class="sub-nav-li" href="<?php echo site_url('about'); ?>">关于公司</a>
+            <a class="sub-nav-li" href="<?php echo site_url('about'); ?>">关于我们</a>
             <a class="sub-nav-li" href="<?php echo site_url('his'); ?>">发展历程</a>
-            <a class="sub-nav-li" href="<?php echo site_url('team'); ?>">团队介绍</a>
-            <a class="sub-nav-li" href="<?php echo site_url('invest'); ?>">投资管理</a>
+            <a class="sub-nav-li" href="<?php echo site_url('invest'); ?>">投资策略</a>
         </div>
     </div>
     <a class="nav-title" href="<?php echo site_url('bus'); ?>">
@@ -25,36 +24,35 @@
             <span class="iconfont ty-arrowll-copy"></span>
         </div>
     </a>
-    <div class="nav-title">
-        <div class="nav-li nav-li-fat">
+    <a class="nav-title" href="<?php echo site_url('pro?type=1'); ?>">
+        <div class="nav-li">
             <div class="title">投资者与被投企业</div>
             <span class="iconfont ty-arrowll-copy"></span>
         </div>
-        <div class="sub-nav-box">
-            <a class="sub-nav-li" href="<?php echo site_url('pro?type=1'); ?>">投资者</a>
-            <a class="sub-nav-li" href="<?php echo site_url('pro?type=2'); ?>">被投企业</a>
-        </div>
-    </div>
-    <div class="nav-title">
-        <div class="nav-li nav-li-fat">
+    </a>
+    <a class="nav-title" href="<?php echo site_url('new?type=3'); ?>">
+        <div class="nav-li">
             <div class="title">天壹动态</div>
             <span class="iconfont ty-arrowll-copy"></span>
         </div>
-        <div class="sub-nav-box">
-            <a class="sub-nav-li" href="<?php echo site_url('new?type=3'); ?>">天壹动态</a>
-            <a class="sub-nav-li" href="<?php echo site_url('new?type=4'); ?>">行业资讯</a>
-        </div>
-    </div>
-    <div class="nav-title">
+    </a>
+     <div class="nav-title">
         <div class="nav-li nav-li-fat">
-            <div class="title">联系我们</div>
+            <div class="title">天壹团队</div>
             <span class="iconfont ty-arrowll-copy"></span>
         </div>
         <div class="sub-nav-box">
-            <a class="sub-nav-li" href="<?php echo site_url('contact'); ?>">联系我们</a>
-            <a class="sub-nav-li" href="<?php echo site_url('join'); ?>">加入我们</a>
+            <a class="sub-nav-li" href="<?php echo site_url('team'); ?>">团队介绍</a>
+            <a class="sub-nav-li" href="<?php echo site_url('team'); ?>">行业资讯</a>
         </div>
     </div>
+
+    <a class="nav-title" href="<?php echo site_url('contact'); ?>">
+        <div class="nav-li">
+            <div class="title">联系我们</div>
+            <span class="iconfont ty-arrowll-copy"></span>
+        </div>
+    </a>
 </div>
 <div class="footer-icon fr">
     <a href="" class="icon-in"></a>

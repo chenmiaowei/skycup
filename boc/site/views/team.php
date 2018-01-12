@@ -90,7 +90,7 @@
             <div class="sub-nav-box"><a href="<?php echo site_url('about'); ?>">关于公司</a></div>
             <div class="sub-nav-box"><a href="<?php echo site_url('his'); ?>">发展历程</a></div>
             <div class="sub-nav-box"><a href="<?php echo site_url('team'); ?>" class="active">团队介绍</a></div>
-            <div class="sub-nav-box"><a href="<?php echo site_url('invest'); ?>">投资管理</a></div>
+            <div class="sub-nav-box"><a href="<?php echo site_url('invest'); ?>">投资策略</a></div>
         </div>
     </div>
     <!-- start 列表页小标题 -->
