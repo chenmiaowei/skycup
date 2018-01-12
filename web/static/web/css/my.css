@@ -285,3 +285,6 @@
     line-height: 18px;
   }
 }
+.about-text .about-text-cont p {
+  text-align: left;
+}
