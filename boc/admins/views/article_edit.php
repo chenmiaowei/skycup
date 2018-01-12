@@ -163,7 +163,7 @@
 			</div>		
 	<?php } ?>	
 	
-	<?php if($this->cid != 18 and $this->cid != 6){ ?>
+	<?php if($this->cid != 6){ ?>
 		<div class="control-group uefull">
 			<textarea id="content" name="content"> <?php echo set_value('content',$it['content']); ?></textarea>
 		</div>
@@ -297,10 +297,7 @@
 <script type="text/javascript">
 	require(['adminer/js/ui','adminer/js/media','bootstrap-datetimepicker.zh'],function(ui,media){
 		$('.timepicker').datetimepicker({'language':'zh-CN','format':'yyyy/mm/dd hh:ii:ss','todayHighlight':true});
-		console.log(ui);
-		<?php if($this->cid != 18 ){ ?>
 		ui.editor_create('content');
-		<?php } ?>
 		media.init();
 
 		var articles_photos = <?php echo json_encode(one_upload($it['photo'])) ?>;
