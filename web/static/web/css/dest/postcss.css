@@ -2078,6 +2078,9 @@
 
 .about-list .about-box .about-box-text:hover .about-msg .about-exp .long {
     display: block;
+    color: #ffffff;
+    margin-top: 20px;
+    line-height: 32px;
 }
 
 .about-list .about-box .about-box-text:hover .about-msg .about-exp .short {
