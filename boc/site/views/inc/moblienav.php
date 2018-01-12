@@ -54,9 +54,3 @@
         </div>
     </a>
 </div>
-<div class="footer-icon fr">
-    <a href="" class="icon-in"></a>
-    <a href="" class="icon-in"></a>
-    <a href="" class="icon-in"></a>
-    <a href="" class="icon-in"></a>
-</div>
