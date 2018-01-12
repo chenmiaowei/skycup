@@ -117,7 +117,7 @@
                     <div class="about-exp">
                         <h5><?php echo $v['title'] ?></h5>
                         <p class="short"><?php echo $v['shortint'] ?></p>
-                        <p class="long"><?php echo $v['content'] ?></p>
+                        <div class="long"><?php echo $v['content'] ?></div>
                     </div>
                 </div>
             </a>
