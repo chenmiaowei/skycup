@@ -2424,6 +2424,7 @@
 .bus-list .bus-box .bus-text .bus-dis {
     font-size: 16px;
     padding: 0 80px;
+    line-height: 32px;
 }
 
 .bus-list .bus-box .bus-text:hover {
