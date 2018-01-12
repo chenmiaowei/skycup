@@ -543,3 +543,11 @@ header.title.title-line .line {
   text-align: center;
   font-size: 32px;
 }
+@media screen and (max-width: 1140px) {
+  header.title {
+    display: none;
+  }
+  .links {
+    display: none;
+  }
+}

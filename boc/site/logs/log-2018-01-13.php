@@ -506,3 +506,7 @@ ERROR - 2018-01-13 00:40:21 --> Severity: Warning  --> include_once(/Users/air/D
 ERROR - 2018-01-13 00:40:21 --> Severity: Warning  --> include_once(): Failed opening '/Users/air/Documents/personal/skycup/boc/site/views/404.php' for inclusion (include_path='.:') /Users/air/Documents/personal/skycup/boc/site/errors/error_404.php 1
 ERROR - 2018-01-13 00:40:57 --> Severity: Notice  --> Only variable references should be returned by reference /Users/air/Documents/personal/skycup/boc/libs/ci/core/Common.php 264
 ERROR - 2018-01-13 00:40:57 --> Language file contains no data: language/zh_CN/common_lang.php
+ERROR - 2018-01-13 00:42:02 --> Severity: Notice  --> Only variable references should be returned by reference /Users/air/Documents/personal/skycup/boc/libs/ci/core/Common.php 264
+ERROR - 2018-01-13 00:42:02 --> Language file contains no data: language/zh_CN/common_lang.php
+ERROR - 2018-01-13 00:42:18 --> Severity: Notice  --> Only variable references should be returned by reference /Users/air/Documents/personal/skycup/boc/libs/ci/core/Common.php 264
+ERROR - 2018-01-13 00:42:18 --> Language file contains no data: language/zh_CN/common_lang.php
