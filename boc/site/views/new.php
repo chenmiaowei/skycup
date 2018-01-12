@@ -16,12 +16,12 @@ $CI->load->model('article_model', 'marticle');
 $newslist = $CI->marticle->get_list(4, 0, false, array('audit' => 1, 'cid' => 5, 'photo !=' => '', 'ctype' => $type), 'id,photo,title,timeline,ctype,introduction');
 
 
-$where = array('cid' => 5, 'audit' => 1, 'ctype' => $type);
+$where = array('cid' => 5, 'ctype' => $type);
 $limit = 8;
 $count = $CI->marticle->get_count_all($where);
 $pages = _pages(site_url($url_base), $limit, $count, 2);
-$list = $CI->marticle->get_list($limit, $limit * ($page - 1), $orders, $where, 'id,photo,title,introduction,content,timeline');
-
+//$list = $CI->marticle->get_list($limit, $limit * ($page - 1), $orders, $where, 'id,photo,title,introduction,content,timeline');
+$list = $CI->marticle->get_list(1000,0, $orders, $where, 'id,photo,title,introduction,content,timeline');
 
 $CI->load->model('coltypes_model', 'mcoltypes');
 $ctypelist = $CI->mcoltypes->get_all(array('cid' => 5, 'show' => 1), 'id,title', array('id' => 'asc'));
@@ -128,8 +128,8 @@ $bannerit = $CI->mcolumnpic->get_one(array('cid' => 21, 'audit' => 1, 'ctype' =>
 
 <!-- start PC端新闻展示 -->
 <div class="pc new-pc">
-    <div class="new-top f-cb">
-        <?php foreach ($newslist as $k => $v): ?>
+    <div class="new-top f-cb" id="owl-demo">
+        <?php foreach ($list as $k => $v): ?>
             <div class="new-box fl">
                 <a class="new-cont" href="<?php echo site_url('details/' . $v['id']); ?>">
                     <!-- 410*210 -->
@@ -211,7 +211,6 @@ $bannerit = $CI->mcolumnpic->get_one(array('cid' => 21, 'audit' => 1, 'ctype' =>
 
 
 <?php
-echo static_file('jQuery.js');
 echo static_file('swiper-3.4.2.jquery.min.js');
 echo static_file('comm.js');
 ?>
@@ -229,6 +228,17 @@ echo static_file('comm.js');
             pagination: '.swiper-pagination',
         });
     }
+    $("#owl-demo").owlCarousel({
+        pagination: false,
+        navigation: true,
+        items : 4,
+        slideSpeed: 300,
+        paginationSpeed: 400,
+        rewindSpeed: 500,
+        autoPlay : 3000,
+        navigationText: ["<i class='fa fa-chevron-left'></i>", "<i class='fa fa-chevron-right'></i>"]
+    });
+
 </script>
 </body>
 </html>

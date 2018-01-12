@@ -275,7 +275,7 @@
   }
 }
 
-.about-list .about-box .about-box-text, .about-list .about-box .about-box-text:hover{
+.about-list .about-box .about-box-text, .about-list .about-box .about-box-text:hover {
   .about-msg .about-exp {
     .long {
       color: #ffffff;
@@ -305,4 +305,51 @@
 
 .about-text .about-text-cont p {
   text-align: left;
+}
+
+.new-pc .new-top {
+  margin: 0 auto;
+  width: 1104px;
+  padding: 215px 0px 75px;;
+  .owl-wrapper-outer {
+    overflow: hidden;
+  }
+  .new-box {
+    width: 100%;
+  }
+
+  .owl-buttons {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    .owl-prev {
+      position: absolute;
+      left: -50px;
+      border-top: #d0d0d0 solid 1px;
+      border-bottom: #d0d0d0 solid 1px;
+      border-left: #d0d0d0 solid 1px;
+      height: 100px;
+      width: 50px;
+      .border-radius(0, 0, 50px, 50px);
+      i {
+        font-size: 32px;
+        margin: 35px 0 0 20px;
+      }
+    }
+    .owl-next {
+      position: absolute;
+      right: -50px;
+      border-top: #d0d0d0 solid 1px;
+      border-bottom: #d0d0d0 solid 1px;
+      border-right: #d0d0d0 solid 1px;
+      height: 100px;
+      width: 50px;
+      .border-radius(50px, 50px, 0, 0);
+      i {
+        font-size: 32px;
+        margin: 35px 0 0 10px;
+      }
+    }
+
+  }
 }

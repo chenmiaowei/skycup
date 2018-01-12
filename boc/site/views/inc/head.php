@@ -23,6 +23,7 @@ echo empty($header['title']) ? '':'-'.$header['title'];?></title>
 	echo static_file('swiper-3.4.2.jquery.min.js');
 	echo static_file('jquery.easing.1.3.js');
 	echo static_file('jquery.cookie.js');
+	echo static_file('owlcarousel/owl.carousel.min.js');
 
 	// echo static_file('web/css/style.css');
 	echo static_file('css/font-awesome.min.css');
@@ -31,6 +32,7 @@ echo empty($header['title']) ? '':'-'.$header['title'];?></title>
 	echo static_file('web/css/dest/postcss.css');
 	echo static_file('web/css/dest/iconfont.css');
 	echo static_file('web/css/dest/swiper.min.css');
+    echo static_file('owlcarousel/owl.carousel.min.css');
     echo static_file('web/css/my.css');
 ?>
 <!--[if IE 6]>
