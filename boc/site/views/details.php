@@ -85,12 +85,6 @@ $this->db->update('article', $data);
         </a>
     </div>
 </div>
-
-<header class="title title-line py-2">
-    <div class="title">Skycus Watch 推荐文章</div>
-    <div class="line"></div>
-</header>
-
 <?php
 if (!isset($it['prev_id'])) {
     $it['prev_id'] = $it['id'];

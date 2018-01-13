@@ -581,6 +581,7 @@ header.title.title-line .line {
   position: relative;
   display: inline-block;
   max-height: 238px;
+  overflow: hidden;
 }
 .links .product-more-item a:before,
 .links .product-more-item a:after {
