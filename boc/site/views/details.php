@@ -87,7 +87,7 @@ $this->db->update('article', $data);
 </div>
 
 <header class="title title-line py-2">
-    <div class="title">Skycus Watch 天壹动态</div>
+    <div class="title">Skycus Watch 推荐文章</div>
     <div class="line"></div>
 </header>
 
