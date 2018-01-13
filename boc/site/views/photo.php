@@ -69,8 +69,8 @@
         ?>
 
 
-        <div class="navigate-left"><i class="fa fa-arrow-left"></i></div>
-        <div class="navigate-right"><i class="fa fa-arrow-right"></i></div>
+        <div class="navigate-left"><i class="fa fa-chevron-left"></i></div>
+        <div class="navigate-right"><i class="fa fa-chevron-right"></i></div>
     </div>
     <!-- end  团队列表 PC-->
 
