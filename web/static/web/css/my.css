@@ -502,6 +502,7 @@ header.title.title-line .line {
   zoom: 1;
   position: relative;
   display: inline-block;
+  max-height: 238px;
 }
 .links .product-more-item a:before,
 .links .product-more-item a:after {
