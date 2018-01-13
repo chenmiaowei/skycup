@@ -447,6 +447,81 @@
   box-sizing: border-box;
   display: flex;
 }
+@media screen and (max-width: 1140px) {
+  .details {
+    width: 100%;
+    background: #ffffff;
+    -webkit-box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    margin-bottom: 120px;
+    margin-top: 80px;
+    padding: 0 30px 80px;
+    -ms-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    position: relative;
+  }
+  .details h1 {
+    padding: 30px 0;
+    border-bottom: 1px solid #eee;
+    font-size: 40px;
+    text-align: center;
+    line-height: 80px;
+  }
+  .details .dis {
+    min-height: auto;
+    font-family: "Source Han Sans CN", Arial, "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+    font-size: 18px;
+    padding: 20px 10px;
+    line-height: 32px;
+  }
+  .details .dis p {
+    word-break: break-all;
+  }
+  .details .details-next a.back {
+    float: inherit;
+    position: absolute;
+    left: 50%;
+    bottom: -60px;
+    margin-left: -60px;
+    width: 120px;
+    height: 120px;
+    border-radius: 60px;
+    background: #242424;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+  .details .details-next a.back i {
+    font-size: 38px;
+    color: #ffffff;
+    -ms-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    display: flex;
+  }
+  .details .details-next a.back span {
+    color: #ffffff;
+    -ms-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    display: flex;
+  }
+}
 header.title {
   font-family: 'Nexa Light';
   font-size: 40px;
