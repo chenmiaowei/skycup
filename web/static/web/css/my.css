@@ -617,3 +617,6 @@ header.title.title-line .line {
   font-size: 14px;
   line-height: 28px;
 }
+.photo-list {
+  margin: 160px auto 160px;
+}

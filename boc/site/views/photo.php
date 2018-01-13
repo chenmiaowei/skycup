@@ -54,8 +54,23 @@
 
     
     <!-- start  团队列表 PC-->
-    <div class="photo-list f-cb pc">
+    <div class="photo-list f-cb pc" id="carousel">
+        <?php
+        foreach ($list as $item) {
+            ?>
+            <div class="slide">
+                <p>
+                    <a href="javascript:void()0;"> <img alt="Image Caption" src="<?php echo UPLOAD_URL . tag_photo($item['photo']); ?>"/> </a>
+                    <span><?php echo $item['title'] ?> </span>
+                </p>
+            </div>
+        <?php
+        }
+        ?>
 
+
+        <div class="navigate-left"><i class="fa fa-arrow-left"></i></div>
+        <div class="navigate-right"><i class="fa fa-arrow-right"></i></div>
     </div>
     <!-- end  团队列表 PC-->
 
@@ -64,8 +79,16 @@
     <!-- end 底部 -->
 
 <?php
-    echo static_file('jQuery.js');
+    echo static_file('jQuery-Sliding-Carousel/js/jquery-slidingCarousel.js');
+    echo static_file('jQuery-Sliding-Carousel/css/sliding-carousel.css');
     echo static_file('comm.js');
 ?>
+<script>
+    $(function () {
+        var carousel = $("#carousel").slidingCarousel({
+            squeeze: 100
+        });
+    })
+</script>
 </body>
 </html>
