@@ -53,8 +53,8 @@
     <!-- start 列表页小标题 -->
 
     <!-- 关于我们页面 -->
-    <div class="about-text">
-        <div class="about-text-cont"><?php echo tag_single(17); ?></div>
+    <div class="about-us-text">
+        <div class="about-us-text-cont"><?php echo tag_single(17); ?></div>
     </div>
 
     <div class="about-list-text">
