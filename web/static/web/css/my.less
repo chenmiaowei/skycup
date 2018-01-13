@@ -111,6 +111,10 @@
 
 .ban {
   .other-btns {
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    div.other-btns-a {
+      border-right: 1px solid rgba(255, 255, 255, 0.4);
+    }
     > div {
       position: relative;
       > a > span {
@@ -122,9 +126,9 @@
         left: -1px;
         bottom: 52px;
         & > a {
-          border-top: 1px solid #fff;
-          border-left: 1px solid #fff;
-          border-right: 1px solid #fff;
+          border-top: 1px solid rgba(255, 255, 255, 0.4);
+          border-left: 1px solid rgba(255, 255, 255, 0.4);
+          border-right: 1px solid rgba(255, 255, 255, 0.4);
           span {
             color: #ffffff;
           }
@@ -277,11 +281,17 @@
 
 .about-list .about-box .about-box-text, .about-list .about-box .about-box-text:hover {
   .about-msg .about-exp {
+    h5 {
+      font-size: 30px;
+      min-width: 250px;
+    }
     .long {
       color: #ffffff;
       margin-top: 10px;
       p {
         color: #ffffff;
+        line-height: 28px;
+        font-size: 14px;
       }
     }
   }
@@ -355,6 +365,7 @@
 }
 
 .details {
+  width: 930px;
   background: #ffffff;
   .box-shadow(0px 0px 20px rgba(0, 0, 0, 0.1));
   margin-bottom: 120px;
@@ -364,8 +375,8 @@
   position: relative;
   h1 {
     padding: 30px 0;
-    border-bottom: 1px solid #ccc;
-    font-size: 32px;
+    border-bottom: 1px solid #eee;
+    font-size: 40px;
     text-align: center;
     line-height: 80px;
   }
@@ -376,7 +387,6 @@
     padding: 20px 10px;
     line-height: 32px;
     p {
-      color: #7a7a7a;
     }
   }
 
@@ -423,14 +433,12 @@
 
 header.title {
   font-family: 'Nexa Light';
-  font-size: 32px;
+  font-size: 40px;
   text-transform: uppercase;
   text-align: center;
-  width: 1024px;
+  width: 930px;
   margin: 0 auto;
 }
-
-
 
 header.title.title-line {
   font-family: 'Arial';
@@ -443,6 +451,7 @@ header.title.title-line .title {
   display: inline-block;
   background: #ededed;
   padding: 0 20px;
+  font-size: 40px;
 }
 
 header.title.title-line .line {
@@ -455,7 +464,7 @@ header.title.title-line .line {
 }
 
 .links {
-  width: 1024px;
+  width: 930px;
   margin: 80px auto;
   .clearfix;
 
@@ -488,28 +497,26 @@ header.title.title-line .line {
       .box-sizing();
       display: flex;
 
-      display: -webkit-box!important;
-      display: -webkit-flex!important;
-      display: -ms-flexbox!important;
-      display: flex!important;
+      display: -webkit-box !important;
+      display: -webkit-flex !important;
+      display: -ms-flexbox !important;
+      display: flex !important;
 
+      -webkit-box-orient: vertical !important;
+      -webkit-box-direction: normal !important;
+      -webkit-flex-direction: column !important;
+      -ms-flex-direction: column !important;
+      flex-direction: column !important;
 
-      -webkit-box-orient: vertical!important;
-      -webkit-box-direction: normal!important;
-      -webkit-flex-direction: column!important;
-      -ms-flex-direction: column!important;
-      flex-direction: column!important;
+      -webkit-box-pack: center !important;
+      -webkit-justify-content: center !important;
+      -ms-flex-pack: center !important;
+      justify-content: center !important;
 
-      -webkit-box-pack: center!important;
-      -webkit-justify-content: center!important;
-      -ms-flex-pack: center!important;
-      justify-content: center!important;
-
-
-      -webkit-box-align: center!important;
-      -webkit-align-items: center!important;
-      -ms-flex-align: center!important;
-      align-items: center!important;
+      -webkit-box-align: center !important;
+      -webkit-align-items: center !important;
+      -ms-flex-align: center !important;
+      align-items: center !important;
       p {
         color: #ffffff;
         text-align: center;
@@ -523,8 +530,65 @@ header.title.title-line .line {
   header.title {
     display: none;
   }
+
   .links {
     display: none;
   }
 }
 
+.banner, .ban {
+  .other-btns a .img4 {
+    background: url("../../img/业务.png");
+  }
+  .other-btns a .img5 {
+    background: url("../../img/联系我们.png");
+  }
+}
+
+.invest .slide-img-effect h4 {
+  color: rgba(0, 0, 0, 0.1);
+}
+.invest .slide-img-effect:hover h4 {
+  color: #ffffff;
+}
+.invest .invest-col .invest-col-box .title {
+  color: #ffffff;
+}
+
+.team-list .team-text .team-text-content {
+  .title {
+    font-size: 40px;
+  }
+  .dis {
+    color: #ffffff;
+    font-size: 14px;
+    p {
+      color: #ffffff;
+      line-height: 28px;
+      font-size: 14px;
+    }
+  }
+}
+.team-list .team-text .team-text-content {
+  padding: 60px 7% 60px 8%;
+}
+
+.bus-list .bus-box .bus-text {
+  * {
+    color: #000000;
+    font-size: 14px;
+    line-height: 28px;
+  }
+}
+.bus-list .bus-box .bus-text:hover {
+  .bus-dis {
+    color: #ffffff;
+    font-size: 14px;
+    line-height: 28px;
+    * {
+      color: #ffffff;
+      font-size: 14px;
+      line-height: 28px;
+    }
+  }
+}

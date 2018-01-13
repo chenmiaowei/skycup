@@ -57,53 +57,7 @@ $this->db->update('article', $data);
         } elseif ($it['cid'] == 3) {
             echo 'Our Business';
         } ?></h3>
-    <div class="other-btns f-cb">
-        <div class="fl other-btns-a">
-            <a href="javascript:void(0);">
-                <span class="img"></span>
-                <span>公司概况</span>
-            </a>
-            <div class="sub-menu">
-                <a href="<?php echo site_url('about'); ?>"><i class="fa fa-building"></i><span>关于我们</span></a>
-                <a href="<?php echo site_url('his'); ?>"><i class="fa fa-calendar"></i><span>发展历程</span></a>
-                <a href="<?php echo site_url('invest'); ?>"><i class="fa fa-bitcoin"></i><span>投资策略</span></a>
-            </div>
-        </div>
-        <div class="fl other-btns-a">
-            <a href="<?php echo site_url('bus'); ?>">
-                <span class="img img2"></span>
-                <span>天壹业务</span>
-            </a>
-        </div>
-        <div class="fl other-btns-a">
-            <a href="<?php echo site_url('pro?type=1'); ?>">
-                <span class="img img3"></span>
-                <span>投资组合与投资者</span>
-            </a>
-        </div>
-        <div class="fl other-btns-a">
-            <a href="<?php echo site_url('new?type=3'); ?>">
-                <span class="img"></span>
-                <span>天壹动态</span>
-            </a>
-        </div>
-        <div class="fl other-btns-a">
-            <a href="<?php echo site_url('team'); ?>">
-                <span class="img img2"></span>
-                <span>天壹团队</span>
-            </a>
-            <div class="sub-menu">
-                <a href="<?php echo site_url('team'); ?>"><i class="fa fa-group"></i><span>团队介绍</span></a>
-                <a href=""><i class="fa fa-picture-o"></i><span>照片墙</span></a>
-            </div>
-        </div>
-        <div class="fl">
-            <a href="<?php echo site_url('contact'); ?>">
-                <span class="img img3"></span>
-                <span>联系我们</span>
-            </a>
-        </div>
-    </div>
+    <?php include_once VIEWS . 'inc/menu.php'; ?>
 </div>
 <!-- end 列表页面banner -->
 
@@ -138,45 +92,39 @@ $this->db->update('article', $data);
 </header>
 
 <?php
-$where = array('cid' => 5, 'ctype' => 3);
-$list1 = $CI->marticle->get_list(1, 0, $orders, $where, 'id,photo,title,introduction,content,timeline');
-$where = array('cid' => 5, 'ctype' => 4);
-$list2 = $CI->marticle->get_list(1, 0, $orders, $where, 'id,photo,title,introduction,content,timeline');
+if (!isset($it['prev_id'])) {
+    $it['prev_id'] = $it['id'];
+}
+$it1 = $CI->marticle->get_one_pn(array('id' => $it['prev_id']), 'title,id,photo,timeline,content,click,cid,sort_id');
+if (!isset($it['next_id'])) {
+    $it['next_id'] = $it['id'];
+}
+$it2 = $CI->marticle->get_one_pn(array('id' => $it['next_id']), 'title,id,photo,timeline,content,click,cid,sort_id');
 ?>
 <div class="links">
     <ul>
-        <?php
-        foreach ($list1 as $v) {
-            ?>
+
             <li class="product-more-item">
-                <a href="<?php echo site_url('new?type=3'); ?>">
+                <a href="<?php echo site_url('details/' . $it['prev_id']); ?>">
                     <div class="mask"></div>
-                    <img src="<?php echo UPLOAD_URL . tag_photo($v['photo']); ?>" alt="<?php echo $v['title'] ?>">
+                    <img src="<?php echo UPLOAD_URL . tag_photo($it1['photo']); ?>" alt="<?php echo strcut($it1['title'], 37); ?>">
                     <div class="title">
-                        <p>查看更多天壹动态&gt;</p>
+                        <p><?php echo strcut($it1['title'], 37); ?></p>
                     </div>
                 </a>
             </li>
 
-            <?php
-        }
-        ?>
-        <?php
-        foreach ($list2 as $v) {
-            ?>
+
             <li class="product-more-item">
-                <a href="<?php echo site_url('new?type=3'); ?>">
+                <a href="<?php echo site_url('details/' . $it['next_id']); ?>">
                     <div class="mask"></div>
-                    <img src="<?php echo UPLOAD_URL . tag_photo($v['photo']); ?>" alt="<?php echo $v['title'] ?>">
+                    <img src="<?php echo UPLOAD_URL . tag_photo($it2['photo']); ?>" alt="<?php echo strcut($it2['title'], 37); ?>">
                     <div class="title">
-                        <p>查看更多天壹资讯 &gt;</p>
+                        <p><?php echo strcut($it2['title'], 37); ?></p>
                     </div>
                 </a>
             </li>
 
-            <?php
-        }
-        ?>
     </ul>
 </div>
 
