@@ -328,7 +328,7 @@ $tzlist = $CI->marticle->get_list(5, 0, false, array('cid' => 4, 'audit' => 1, '
 
 
 <!-- start index-contact -->
-<div class="index-contact f-cb">
+<div class="index-contact f-cb pc">
     <a class="index-join-box fl" href="<?php echo site_url('join'); ?>">
         <div class="index-cont-box">
             <div class="index-cont-img"></div>

@@ -54,7 +54,7 @@
 
     
     <!-- start  团队列表 PC-->
-    <div class="photo-list" id="carousel">
+    <div class="photo-list pc" id="carousel">
         <?php
         foreach ($list as $item) {
             ?>
@@ -67,10 +67,23 @@
         <?php
         }
         ?>
-
-
         <div class="navigate-left"><i class="fa fa-chevron-left"></i></div>
         <div class="navigate-right"><i class="fa fa-chevron-right"></i></div>
+    </div>
+
+    <div class="photo-list-h5 h5">
+        <?php
+        foreach ($list as $item) {
+            ?>
+            <div class="slide">
+                <p>
+                    <a href="javascript:void()0;"> <img alt="Image Caption" src="<?php echo UPLOAD_URL . tag_photo($item['photo']); ?>"/> </a>
+                    <span><?php echo $item['title'] ?> </span>
+                </p>
+            </div>
+            <?php
+        }
+        ?>
     </div>
     <!-- end  团队列表 PC-->
 

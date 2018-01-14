@@ -760,6 +760,44 @@ header.title.title-line .line {
     width: 100%;
   }
 }
+.photo-list-h5 {
+  width: 100%;
+}
+.photo-list-h5 .slide {
+  width: 100%;
+  margin-top: 30px;
+}
+.photo-list-h5 .slide p {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+}
+.photo-list-h5 .slide p a {
+  display: inline-block;
+  width: 100%;
+  zoom: 1;
+}
+.photo-list-h5 .slide p a:before,
+.photo-list-h5 .slide p a:after {
+  content: "";
+  display: table;
+}
+.photo-list-h5 .slide p a:after {
+  clear: both;
+}
+.photo-list-h5 .slide p a img {
+  width: 100%;
+}
+.photo-list-h5 .slide p span {
+  position: absolute;
+  background: rgba(0, 0, 0, 0.7);
+  width: 100%;
+  display: inline-block;
+  bottom: 0;
+  line-height: 32px;
+  text-indent: 30px;
+  color: #ffffff;
+}
 .about-us-text {
   width: 100%;
   margin: 0 auto;
