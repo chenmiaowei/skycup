@@ -43,7 +43,7 @@
         </div>
         <div class="sub-nav-box">
             <a class="sub-nav-li" href="<?php echo site_url('team'); ?>">团队介绍</a>
-            <a class="sub-nav-li" href="<?php echo site_url('team'); ?>">行业资讯</a>
+            <a class="sub-nav-li" href="<?php echo site_url('his'); ?>">发展历程</a>
             <a class="sub-nav-li" href="<?php echo site_url('photo'); ?>">照片墙</a>
         </div>
     </div>
