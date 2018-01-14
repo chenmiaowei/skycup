@@ -54,7 +54,7 @@
 
     
     <!-- start  团队列表 PC-->
-    <div class="photo-list f-cb pc" id="carousel">
+    <div class="photo-list" id="carousel">
         <?php
         foreach ($list as $item) {
             ?>

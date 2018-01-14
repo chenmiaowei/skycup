@@ -755,6 +755,11 @@ header.title.title-line .line {
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
 }
+@media screen and (max-width: 1140px) {
+  .photo-list {
+    width: 100%;
+  }
+}
 .about-us-text {
   width: 100%;
   margin: 0 auto;
