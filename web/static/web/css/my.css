@@ -695,6 +695,7 @@ header.title.title-line .line {
 }
 .photo-list {
   margin: 160px auto 160px;
+  height: 500px;
   zoom: 1;
 }
 .photo-list:before,
@@ -706,7 +707,7 @@ header.title.title-line .line {
   clear: both;
 }
 .photo-list .navigate-left {
-  left: -20px !important;
+  left: -75px !important;
   top: 50% !important;
   border: 1px solid #d0d0d0;
   height: 50px;
@@ -731,7 +732,7 @@ header.title.title-line .line {
 }
 .photo-list .navigate-right {
   left: auto !important;
-  right: -20px !important;
+  right: -75px !important;
   top: 50% !important;
   border: 1px solid #d0d0d0;
   height: 50px;
