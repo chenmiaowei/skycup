@@ -695,6 +695,15 @@ header.title.title-line .line {
 }
 .photo-list {
   margin: 160px auto 160px;
+  zoom: 1;
+}
+.photo-list:before,
+.photo-list:after {
+  content: "";
+  display: table;
+}
+.photo-list:after {
+  clear: both;
 }
 .photo-list .navigate-left {
   left: -20px !important;
