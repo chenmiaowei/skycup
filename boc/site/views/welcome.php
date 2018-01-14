@@ -233,9 +233,9 @@ $tzlist = $CI->marticle->get_list(5, 0, false, array('cid' => 4, 'audit' => 1, '
                 <?php foreach ($bannerlist as $k => $v): ?>
                     <a class="swiper-slide" href="<?php echo $v['links'] ?>"
                        style="background: url(<?php echo UPLOAD_URL . tag_photo($v['photo']); ?>) no-repeat center; background-size: cover">
-                        <p class="cn"><?php echo $v['title'] ?></p>
-                        <p class="en"><?php echo $v['title_en'] ?></p>
-                        <div class="see">See more</div>
+<!--                        <p class="cn">--><?php //echo $v['title'] ?><!--</p>-->
+<!--                        <p class="en">--><?php //echo $v['title_en'] ?><!--</p>-->
+<!--                        <div class="see">See more</div>-->
                     </a>
                 <?php endforeach ?>
             </div>
