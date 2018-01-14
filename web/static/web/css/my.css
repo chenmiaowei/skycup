@@ -794,8 +794,9 @@ header.title.title-line .line {
   width: 100%;
   display: inline-block;
   bottom: 0;
-  line-height: 32px;
+  line-height: 80px;
   text-indent: 30px;
+  font-size: 32px;
   color: #ffffff;
 }
 .about-us-text {
