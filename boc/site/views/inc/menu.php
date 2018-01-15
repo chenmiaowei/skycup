@@ -15,7 +15,7 @@
         <div class="sub-menu">
             <a href="<?php echo site_url('about'); ?>"><i class="fa fa-building"></i><span>关于我们</span></a>
             <a href="<?php echo site_url('his'); ?>"><i class="fa fa-calendar"></i><span>发展历程</span></a>
-            <a href="<?php echo site_url('invest'); ?>"><i class="fa fa-bitcoin"></i><span>投资策略</span></a>
+            <a href="<?php echo site_url('invest'); ?>"><i class="fa fa-bullseye"></i><span>投资策略</span></a>
         </div>
     </div>
     <div class="fl other-btns-a">

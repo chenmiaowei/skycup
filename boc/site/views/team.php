@@ -49,7 +49,6 @@ $bannerit = $CI->mcolumnpic->get_one(array('cid' => 21, 'audit' => 1, 'ctype' =>
         <div class="sub-nav-box"><a href="<?php echo site_url('about'); ?>">关于公司</a></div>
         <div class="sub-nav-box"><a href="<?php echo site_url('his'); ?>">发展历程</a></div>
         <div class="sub-nav-box"><a href="<?php echo site_url('team'); ?>" class="active">团队介绍</a></div>
-        <div class="sub-nav-box"><a href="<?php echo site_url('photo'); ?>">照片墙</a></div>
         <div class="sub-nav-box"><a href="<?php echo site_url('invest'); ?>">投资策略</a></div>
     </div>
 </div>

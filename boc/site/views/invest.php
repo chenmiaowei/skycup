@@ -45,7 +45,6 @@
             <div class="sub-nav-box"><a href="<?php echo site_url('about'); ?>">关于公司</a></div>
             <div class="sub-nav-box"><a href="<?php echo site_url('his'); ?>">发展历程</a></div>
             <div class="sub-nav-box"><a href="<?php echo site_url('team'); ?>">团队介绍</a></div>
-            <div class="sub-nav-box"><a href="<?php echo site_url('photo'); ?>">照片墙</a></div>
             <div class="sub-nav-box"><a href="<?php echo site_url('invest'); ?>" class="active">投资策略</a></div>
         </div>
     </div>
@@ -100,7 +99,7 @@
             </div>
             <h4>新型基础设施建设</h4>
             <h5>以“特色小镇”、产业园区为标杆的新型基础设施将促进区域经济发展和产业调整升级</h5>
-            <img src="<?php echo static_file('img/invest-4.jpg'); ?>" alt="" width="100%">
+            <img src="<?php echo static_file('img/invest-8.jpg'); ?>" alt="" width="100%">
         </div>
     </div>
     <!-- end 投资策略 -->
