@@ -1,101 +1,201 @@
 <?php
-$CI->load->model('gallery_model', 'mgallery');
-$list = $CI->mgallery->get_all(array('cid' => 23), 'id,photo,pic,title,position,content');
+$where = array('cid' => 23);
+$CI->load->model('article_model', 'marticle');
+$list = $CI->marticle->get_all($where, 'id,photo,title,introduction,content,xphoto,color');
 
 
-$CI->load->model('columnpic_model', 'mcolumnpic');
-$bannerit = $CI->mcolumnpic->get_one(array('cid' => 21, 'audit' => 1, 'ctype' => 2), 'id,photo');
 ?>
 <!DOCTYPE html>
 <html>
 <head>
     <?php include_once VIEWS . 'inc/head.php'; ?>
-
+    <?php
+    echo static_file('web/css/dest/jquery.fullPage.css');
+    ?>
 </head>
 
 <body>
-<div class="pc">
-    <!-- start 头部 -->
-    <?php include_once VIEWS . 'inc/top.php'; ?>
-    <!-- end 头部 -->
-</div>
-
-<div class="h5">
-    <div class="h5-header">
-        <a href="<?php echo site_url(''); ?>" class="logo"></a>
-        <div class="icon-nav"></div>
-    </div>
-    <div class="h5-nav-box">
-        <?php include_once VIEWS . 'inc/moblienav.php'; ?>
-    </div>
-</div>
-
-<!-- start 列表页面banner -->
-<div class="ban his-ban" data-img="<?php if (!empty($bannerit)) {
-    echo UPLOAD_URL . tag_photo($bannerit['photo']);
-} else {
-    echo static_file('img/ban-1.jpg');
-} ?>">
-    <h2>照片墙</h2>
-    <h3>Our Picture</h3>
-    <?php include_once VIEWS . 'inc/menu.php'; ?>
-
-
-</div>
-<!-- end 列表页面banner -->
-
-
-<!-- start  团队列表 PC-->
-<div class="photo-list pc" id="carousel">
-    <?php
-    foreach ($list as $item) {
-        ?>
-        <div class="slide">
-            <p>
-                <a href="javascript:void()0;"> <img alt="Image Caption"
-                                                    src="<?php echo UPLOAD_URL . tag_photo($item['photo']); ?>"/> </a>
-                <span><?php echo $item['title'] ?> </span>
-            </p>
+<div id="fullpage" class="pro-container">
+    <div class="section">
+        <div class="pc">
+            <!-- start 头部 -->
+            <?php include_once VIEWS . 'inc/top.php'; ?>
+            <!-- end 头部 -->
         </div>
-        <?php
-    }
-    ?>
-<!--    <div class="navigate-left"><i class="fa fa-chevron-left"></i></div>-->
-<!--    <div class="navigate-right"><i class="fa fa-chevron-right"></i></div>-->
-</div>
 
-<div class="photo-list-h5 h5">
-    <?php
-    foreach ($list as $item) {
-        ?>
-        <div class="slide">
-            <p>
-                <a href="javascript:void()0;"> <img alt="Image Caption"
-                                                    src="<?php echo UPLOAD_URL . tag_photo($item['photo']); ?>"/> </a>
-                <span><?php echo $item['title'] ?> </span>
-            </p>
+        <div class="h5">
+            <div class="h5-header">
+                <a href="<?php echo site_url(''); ?>" class="logo"></a>
+                <div class="icon-nav"></div>
+            </div>
+            <div class="h5-nav-box">
+                <?php include_once VIEWS . 'inc/moblienav.php'; ?>
+            </div>
         </div>
-        <?php
-    }
-    ?>
-</div>
-<!-- end  团队列表 PC-->
 
-<!-- start 底部 -->
-<?php include_once VIEWS . 'inc/footer.php'; ?>
-<!-- end 底部 -->
+        <!-- start 列表页面banner -->
+        <div class="ban his-ban" data-img="<?php echo static_file('img/ban-1.jpg'); ?>">
+            <h2><?php echo tag_columns(4); ?></h2>
+            <h3>Portfolio And Investors</h3>
+            <?php include_once VIEWS . 'inc/menu.php'; ?>
+        </div>
+        <!-- end 列表页面banner -->
+
+
+        <!-- start 投资组合与投资者 -->
+        <div class="pro-list h5">
+            <?php foreach ($list as $k => $v): ?>
+                <?php if ($k == 0) { ?>
+                    <div class="pro-box f-cb <?php echo $k===0?' first' : '' ?><?php echo $k===count($list)-1?' last' : '' ?>>">
+                        <!-- 背景颜色后台配置 -->
+                        <a class="fl pro-text" href="<?php echo site_url('photos/' . $v['id']); ?>">
+                            <div class="pro-text-bg" style="background: <?php echo $v['color']; ?>"></div>
+                            <div class="pro-content">
+                                <p class="title"><?php echo $v['title'] ?></p>
+                                <div class="dis"><?php echo $v['introduction'] ?></div>
+                                <div class="link">了解详情</div>
+                            </div>
+                        </a>
+                        <!-- 1260*990 -->
+                        <div class="pro-img fr"
+                             style="background: url(<?php echo UPLOAD_URL . tag_photo($v['photo']); ?>) no-repeat center; background-size: cover;">
+                            <?php echo $k===count($list)-1?' <a  class="go-previous"><i class="fa fa-chevron-circle-up"></i></a>' : '<a  class="go-next"><i class="fa fa-chevron-circle-down"></i></a>' ?>
+                        </div>
+                    </div>
+                <?php } ?>
+            <?php endforeach ?>
+
+        </div>
+        <!-- end 投资组合与投资者 -->
+
+
+    </div>
+
+    <?php foreach ($list as $k => $v): ?>
+        <?php if ($k < count($list) - 1) { ?>
+            <div class="section <?php echo $k===0?' first' : '' ?><?php echo $k===count($list)-1?' last' : '' ?>">
+                <div class="pro-list h5">
+                    <div class="pro-box f-cb">
+                        <!-- 背景颜色后台配置 -->
+                        <a class="fl pro-text" href="<?php echo site_url('photos/' . $list[$k + 1]['id']); ?>">
+                            <div class="pro-text-bg" style="background: <?php echo $list[$k + 1]['color']; ?>"></div>
+                            <div class="pro-content">
+                                <p class="title"><?php echo $list[$k + 1]['title'] ?></p>
+                                <div class="dis"><?php echo strcut($list[$k + 1]['introduction'], 34) ?></div>
+                                <div class="link">了解详情</div>
+                            </div>
+                        </a>
+                        <!-- 1260*1080 -->
+                        <div class="pro-img fr"
+                             style="background: url(<?php echo UPLOAD_URL . tag_photo($list[$k + 1]['photo']); ?>) no-repeat center; background-size: cover;"></div>
+                    </div>
+                </div>
+                <div class="pro-list pc">
+                    <div class="pro-box f-cb">
+                        <!-- 背景颜色后台配置 -->
+                        <a class="fl pro-text" href="<?php echo site_url('photos/' . $v['id']); ?>">
+                            <div class="pro-text-bg" style="background: <?php echo $v['color']; ?>"></div>
+                            <div class="pro-content">
+                                <p class="title"><?php echo $v['title'] ?></p>
+                                <div class="dis"><?php echo strcut($v['introduction'], 34) ?></div>
+                                <div class="link">了解详情</div>
+                            </div>
+                        </a>
+                        <!-- 1260*1080 -->
+                        <div class="pro-img fr"
+                             style="background: url(<?php echo UPLOAD_URL . tag_photo($v['photo']); ?>) no-repeat center; background-size: cover;">
+                            <?php echo $k===count($list)-1?' <a  class="go-previous"><i class="fa fa-chevron-circle-up"></i></a>' : '<a  class="go-next"><i class="fa fa-chevron-circle-down"></i></a>' ?>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        <?php } else { ?>
+            <div class="section pc <?php echo $k===0?' first' : '' ?><?php echo $k===count($list)-1?' last' : '' ?>">
+                <div class="pro-list pc">
+                    <div class="pro-box f-cb">
+                        <!-- 背景颜色后台配置 -->
+                        <a class="fl pro-text" href="<?php echo site_url('photos/' . $v['id']); ?>">
+                            <div class="pro-text-bg" style="background: <?php echo $v['color']; ?>"></div>
+                            <div class="pro-content">
+                                <p class="title"><?php echo $v['title'] ?></p>
+                                <div class="dis"><?php echo strcut($v['introduction'], 34) ?></div>
+                                <div class="link">了解详情</div>
+                            </div>
+                        </a>
+                        <!-- 1260*1080 -->
+                        <div class="pro-img fr"
+                             style="background: url(<?php echo UPLOAD_URL . tag_photo($v['photo']); ?>) no-repeat center; background-size: cover;">
+                            <?php echo $k===count($list)-1?' <a  class="go-previous"><i class="fa fa-chevron-circle-up"></i></a>' : '<a  class="go-next"><i class="fa fa-chevron-circle-down"></i></a>' ?>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        <?php } ?>
+    <?php endforeach ?>
+
+    <!-- start 底部 -->
+    <!-- <div class="section pc">
+        <div class="footer">
+            <div class="footer-left f-cb">
+                <a class="footer-logo fl" href="index.html"></a>
+                <div class="footer-icon fr">
+                    <a href="" class="icon-in"></a>
+                    <a href="" class="icon-in"></a>
+                    <a href="" class="icon-in"></a>
+                    <a href="" class="icon-in"></a>
+                </div>
+            </div>
+            <div class="footer-right f-cb">
+                <p class="fl">地址/北京市西城区金融大街17号中国人寿中心6层</p>
+                <p class="fr">© 2016 skycus capital.  All Rights Reserved.</p>
+            </div>
+        </div>
+    </div> -->
+    <!-- end 底部 -->
+</div>
 
 <?php
-echo static_file('jQuery-Sliding-Carousel/js/jquery-slidingCarousel.js');
-echo static_file('jQuery-Sliding-Carousel/css/sliding-carousel.css');
+echo static_file('web/css/dest/jquery.fullPage.css');
+echo static_file('jQuery.js');
+echo static_file('jquery.easing.1.3.js');
+echo static_file('jquery.fullPage.min.js');
 echo static_file('comm.js');
 ?>
 <script>
     $(function () {
-        var carousel = $("#carousel").slidingCarousel({
-            squeeze: 100
+        var nowWidth = $(window).width()
+        window.onresize = function () {
+            nowWidth = $(window).width()
+            if (nowWidth <= 1024) {
+                $("#superContainer").css('top', '0');
+            }
+        }
+        var proSection = $("#fullpage .section.pc");
+        
+        
+        $('#fullpage').fullpage({
+            scrollOverflow: false,
+            onLeave: function (index) {
+                if (nowWidth <= 1024) {
+                    //$.fn.fullpage.moveTo(1)
+                    proSection.remove()
+                } else {
+                    $('#fullpage').append(proSection)
+                }
+            }
+            // afterLoad: function(){
+            //     setTimeout(function(){
+            //         $(".scrollable").scrollTop(0)
+            //     },300)
+            // }
         });
-    })
+        $('.go-next').click(function () {
+            $.fn.fullpage.moveSectionDown();
+        })
+         $('.go-previous').click(function () {
+            $.fn.fullpage.moveTo(1);
+        })
+    });
 </script>
 </body>
 </html>

@@ -29,7 +29,23 @@
 					<input type="text" id="position" name="position" value="<?php echo set_value('position',$it['position']) ?>" placeholder="职位">
 				</div>
 			</div>
-			<?php } ?>				
+			<?php } ?>
+
+            <?php if ($this->cid == 24) {
+                $CI = get_instance();
+                $CI->load->model('article_model', 'marticle');
+                $newslist = $CI->marticle->get_list(4, 0, false, array( 'cid' => 23), 'id,photo,title,timeline,ctype,introduction');
+                ?>
+                <div class="control-group">
+                    <label class="control-label" for="status"> 所属图片文章:</label>
+                    <div class="controls">
+                        <?php
+                        echo ui_btn_select('aid',set_value("aid"),$newslist);
+                        ?>
+                        <span class="help-inline"></span>
+                    </div>
+                </div>
+            <?php } ?>
 
 			<?php if($this->cid==26){ ?>
 			<div class="control-group">
