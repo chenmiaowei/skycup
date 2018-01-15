@@ -60,8 +60,8 @@ $bannerit = $CI->mcolumnpic->get_one(array('cid' => 21, 'audit' => 1, 'ctype' =>
         <?php
     }
     ?>
-    <div class="navigate-left"><i class="fa fa-chevron-left"></i></div>
-    <div class="navigate-right"><i class="fa fa-chevron-right"></i></div>
+<!--    <div class="navigate-left"><i class="fa fa-chevron-left"></i></div>-->
+<!--    <div class="navigate-right"><i class="fa fa-chevron-right"></i></div>-->
 </div>
 
 <div class="photo-list-h5 h5">
