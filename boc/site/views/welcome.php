@@ -40,8 +40,8 @@ $tzlist = $CI->marticle->get_list(5, 0, false, array('cid' => 4, 'audit' => 1, '
                                src="<?php echo UPLOAD_URL . tag_photo($v['video']); ?>"></video>
                     <?php } ?>
                     <div class="cent-cont">
-<!--                        <p class="ch">--><?php //echo $v['title'] ?><!--</p>-->
-<!--                        <p class="en">--><?php //echo $v['title_en'] ?><!--</p>-->
+                        <p class="ch"><?php echo $v['title'] ?></p>
+                        <p class="en"><?php echo $v['title_en'] ?></p>
 <!--                        <a href="--><?php //echo $v['links'] ?><!--" class="link">See more</a>-->
                     </div>
                 </li>
