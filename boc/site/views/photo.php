@@ -35,8 +35,8 @@ $list = $CI->marticle->get_all($where, 'id,photo,title,introduction,content,xpho
 
         <!-- start 列表页面banner -->
         <div class="ban his-ban" data-img="<?php echo static_file('img/ban-1.jpg'); ?>">
-            <h2><?php echo tag_columns(4); ?></h2>
-            <h3>Portfolio And Investors</h3>
+            <h2>照片墙</h2>
+            <h3>Our Picture</h3>
             <?php include_once VIEWS . 'inc/menu.php'; ?>
         </div>
         <!-- end 列表页面banner -->
