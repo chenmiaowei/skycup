@@ -4,7 +4,7 @@ $CI->load->model('article_model', 'marticle');
 $list = $CI->marticle->get_all($where, 'id,photo,title,introduction,content,xphoto,color');
 
 $CI->load->model('columnpic_model', 'mcolumnpic');
-$bannerit = $CI->mcolumnpic->get_one(array('cid' => 24, 'audit' => 1, 'ctype' => 2), 'id,photo');
+$bannerit = $CI->mcolumnpic->get_one(array('cid' => 21, 'audit' => 1, 'ctype' => 2), 'id,photo');
 ?>
 <!DOCTYPE html>
 <html>
