@@ -853,3 +853,55 @@ header.title.title-line .line {
 .banner li .cent-cont {
   top: 60%;
 }
+.photo-container .invest {
+  margin: 0;
+  height: 490px;
+}
+.photo-container .invest .format-1 {
+  height: 66.66%;
+}
+.photo-container .invest .format-2 {
+  height: 33.33%;
+  top: 66.66%;
+}
+.photo-container .invest .format-3 {
+  height: 33.33%;
+  top: 66.66%;
+}
+.photo-container .invest .format-4 {
+  height: 66.66%;
+}
+.photo-container .invest .format-5 {
+  height: 33.33%;
+  top: 66.66%;
+}
+.photo-container .invest .format-6 {
+  position: absolute;
+  top: 33.33%;
+  right: 0;
+  width: 25%;
+  height: 66.66%;
+}
+.photo-container .invest .format-7 {
+  position: absolute;
+  top: 0;
+  left: 75%;
+  width: 25%;
+  height: 33.33%;
+}
+.photo-container .invest .slide-img-effect h4 {
+  top: 260px;
+}
+.photo-container .invest .format-3 .slide-img-effect h4,
+.photo-container .invest .format-7 .slide-img-effect h4,
+.photo-container .invest .format-2 .slide-img-effect h4,
+.photo-container .invest .format-5 .slide-img-effect h4 {
+  top: 120px;
+}
+.photo-container .invest .format-3 .slide-img-effect h3,
+.photo-container .invest .format-7 .slide-img-effect h3 {
+  bottom: 56px;
+}
+.photo-container .h5-invest {
+  margin: 0;
+}

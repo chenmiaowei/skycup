@@ -705,6 +705,7 @@ header.title.title-line .line {
   }
 
 }
+
 @media screen and (max-width: 1140px) {
   .photo-list {
     width: 100%;
@@ -773,10 +774,12 @@ header.title.title-line .line {
     }
   }
 }
+
 @media screen and (max-width: 1140px) {
   .pro-list .pro-box .pro-text .pro-text-bg {
     z-index: 98;
   }
+
   .pro-list .pro-box .pro-text .pro-content {
     z-index: 99;
   }
@@ -788,4 +791,62 @@ header.title.title-line .line {
 
 .banner li .cent-cont {
   top: 60%;
+}
+
+.photo-container {
+  .invest {
+    margin: 0;
+    height: 490px;
+    .format-1 {
+      height: 66.66%;
+    }
+    .format-2 {
+      height: 33.33%;
+      top: 66.66%;
+    }
+    .format-3 {
+      height: 33.33%;
+      top: 66.66%;
+    }
+    .format-4 {
+      height: 66.66%;
+    }
+    .format-5 {
+      height: 33.33%;
+      top: 66.66%;
+    }
+    .format-6 {
+      position: absolute;
+      top: 33.33%;
+      right: 0;
+      width: 25%;
+      height: 66.66%;
+    }
+
+    .format-7 {
+      position: absolute;
+      top: 0;
+      left: 75%;
+      width: 25%;
+      height: 33.33%;
+    }
+
+    .slide-img-effect h4 {
+      top: 260px;
+    }
+    .format-3, .format-7, .format-2, .format-5 {
+      .slide-img-effect h4 {
+        top: 120px;
+      }
+    }
+    .format-3,.format-7 {
+      .slide-img-effect h3 {
+        bottom: 56px;
+      }
+    }
+  }
+
+  .h5-invest {
+    margin: 0;
+  }
 }

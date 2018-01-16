@@ -15,187 +15,229 @@ $list = $CI->marticle->get_all($where, 'id,photo,title,introduction,content,xpho
 </head>
 
 <body>
-<div id="fullpage" class="pro-container">
-    <div class="section">
-        <div class="pc">
-            <!-- start 头部 -->
-            <?php include_once VIEWS . 'inc/top.php'; ?>
-            <!-- end 头部 -->
-        </div>
-
-        <div class="h5">
-            <div class="h5-header">
-                <a href="<?php echo site_url(''); ?>" class="logo"></a>
-                <div class="icon-nav"></div>
-            </div>
-            <div class="h5-nav-box">
-                <?php include_once VIEWS . 'inc/moblienav.php'; ?>
-            </div>
-        </div>
-
-        <!-- start 列表页面banner -->
-        <div class="ban his-ban" data-img="<?php echo static_file('img/ban-1.jpg'); ?>">
-            <h2>照片墙</h2>
-            <h3>Our Picture</h3>
-            <?php include_once VIEWS . 'inc/menu.php'; ?>
-        </div>
-        <!-- end 列表页面banner -->
-
-
-        <!-- start 投资组合与投资者 -->
-        <div class="pro-list h5">
-            <?php foreach ($list as $k => $v): ?>
-                <?php if ($k == 0) { ?>
-                    <div class="pro-box f-cb <?php echo $k===0?' first' : '' ?><?php echo $k===count($list)-1?' last' : '' ?>>">
-                        <!-- 背景颜色后台配置 -->
-                        <a class="fl pro-text" href="<?php echo site_url('photos/' . $v['id']); ?>">
-                            <div class="pro-text-bg" style="background: <?php echo $v['color']; ?>"></div>
-                            <div class="pro-content">
-                                <p class="title"><?php echo $v['title'] ?></p>
-                                <div class="dis"><?php echo $v['introduction'] ?></div>
-                                <div class="link">了解详情</div>
-                            </div>
-                        </a>
-                        <!-- 1260*990 -->
-                        <div class="pro-img fr"
-                             style="background: url(<?php echo UPLOAD_URL . tag_photo($v['photo']); ?>) no-repeat center; background-size: cover;">
-                            <?php echo $k===count($list)-1?' <a  class="go-previous"><i class="fa fa-chevron-circle-up"></i></a>' : '<a  class="go-next"><i class="fa fa-chevron-circle-down"></i></a>' ?>
-                        </div>
-                    </div>
-                <?php } ?>
-            <?php endforeach ?>
-
-        </div>
-        <!-- end 投资组合与投资者 -->
-
-
-    </div>
-
-    <?php foreach ($list as $k => $v): ?>
-        <?php if ($k < count($list) - 1) { ?>
-            <div class="section <?php echo $k===0?' first' : '' ?><?php echo $k===count($list)-1?' last' : '' ?>">
-                <div class="pro-list h5">
-                    <div class="pro-box f-cb">
-                        <!-- 背景颜色后台配置 -->
-                        <a class="fl pro-text" href="<?php echo site_url('photos/' . $list[$k + 1]['id']); ?>">
-                            <div class="pro-text-bg" style="background: <?php echo $list[$k + 1]['color']; ?>"></div>
-                            <div class="pro-content">
-                                <p class="title"><?php echo $list[$k + 1]['title'] ?></p>
-                                <div class="dis"><?php echo strcut($list[$k + 1]['introduction'], 34) ?></div>
-                                <div class="link">了解详情</div>
-                            </div>
-                        </a>
-                        <!-- 1260*1080 -->
-                        <div class="pro-img fr"
-                             style="background: url(<?php echo UPLOAD_URL . tag_photo($list[$k + 1]['photo']); ?>) no-repeat center; background-size: cover;"></div>
-                    </div>
-                </div>
-                <div class="pro-list pc">
-                    <div class="pro-box f-cb">
-                        <!-- 背景颜色后台配置 -->
-                        <a class="fl pro-text" href="<?php echo site_url('photos/' . $v['id']); ?>">
-                            <div class="pro-text-bg" style="background: <?php echo $v['color']; ?>"></div>
-                            <div class="pro-content">
-                                <p class="title"><?php echo $v['title'] ?></p>
-                                <div class="dis"><?php echo strcut($v['introduction'], 34) ?></div>
-                                <div class="link">了解详情</div>
-                            </div>
-                        </a>
-                        <!-- 1260*1080 -->
-                        <div class="pro-img fr"
-                             style="background: url(<?php echo UPLOAD_URL . tag_photo($v['photo']); ?>) no-repeat center; background-size: cover;">
-                            <?php echo $k===count($list)-1?' <a  class="go-previous"><i class="fa fa-chevron-circle-up"></i></a>' : '<a  class="go-next"><i class="fa fa-chevron-circle-down"></i></a>' ?>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        <?php } else { ?>
-            <div class="section pc <?php echo $k===0?' first' : '' ?><?php echo $k===count($list)-1?' last' : '' ?>">
-                <div class="pro-list pc">
-                    <div class="pro-box f-cb">
-                        <!-- 背景颜色后台配置 -->
-                        <a class="fl pro-text" href="<?php echo site_url('photos/' . $v['id']); ?>">
-                            <div class="pro-text-bg" style="background: <?php echo $v['color']; ?>"></div>
-                            <div class="pro-content">
-                                <p class="title"><?php echo $v['title'] ?></p>
-                                <div class="dis"><?php echo strcut($v['introduction'], 34) ?></div>
-                                <div class="link">了解详情</div>
-                            </div>
-                        </a>
-                        <!-- 1260*1080 -->
-                        <div class="pro-img fr"
-                             style="background: url(<?php echo UPLOAD_URL . tag_photo($v['photo']); ?>) no-repeat center; background-size: cover;">
-                            <?php echo $k===count($list)-1?' <a  class="go-previous"><i class="fa fa-chevron-circle-up"></i></a>' : '<a  class="go-next"><i class="fa fa-chevron-circle-down"></i></a>' ?>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        <?php } ?>
-    <?php endforeach ?>
-
-    <!-- start 底部 -->
-    <!-- <div class="section pc">
-        <div class="footer">
-            <div class="footer-left f-cb">
-                <a class="footer-logo fl" href="index.html"></a>
-                <div class="footer-icon fr">
-                    <a href="" class="icon-in"></a>
-                    <a href="" class="icon-in"></a>
-                    <a href="" class="icon-in"></a>
-                    <a href="" class="icon-in"></a>
-                </div>
-            </div>
-            <div class="footer-right f-cb">
-                <p class="fl">地址/北京市西城区金融大街17号中国人寿中心6层</p>
-                <p class="fr">© 2016 skycus capital.  All Rights Reserved.</p>
-            </div>
-        </div>
-    </div> -->
-    <!-- end 底部 -->
+<div class="pc">
+    <!-- start 头部 -->
+    <?php include_once VIEWS . 'inc/top.php'; ?>
+    <!-- end 头部 -->
 </div>
 
+<div class="h5">
+    <div class="h5-header">
+        <a href="<?php echo site_url(''); ?>" class="logo"></a>
+        <div class="icon-nav"></div>
+    </div>
+    <div class="h5-nav-box">
+        <?php include_once VIEWS . 'inc/moblienav.php'; ?>
+    </div>
+</div>
+
+<!-- start 列表页面banner -->
+<div class="ban his-ban" data-img="<?php echo static_file('img/ban-1.jpg'); ?>">
+    <h2>照片墙</h2>
+    <h3>Our Picture</h3>
+    <?php include_once VIEWS . 'inc/menu.php'; ?>
+</div>
+<!-- end 列表页面banner -->
+
+<div class="photo-container">
+    <div class="pc">
+        <!-- start invest -->
+        <div class="invest project-silder">
+            <!-- 注意format-1命名 -->
+            <?php foreach ($list as $k => $v): ?>
+                <div class="silder silder-format">
+                    <div class="slide-img">
+                        <div class="slide-img-effect">
+                            <!-- 960*490 -->
+                            <div class="img-container"
+                                 style="background-image: url(<?php echo UPLOAD_URL . tag_photo($v['photo']); ?>);"></div>
+                            <a href="<?php echo site_url('photos/' . $v['id']); ?>" class="hover-link"></a>
+                            <h3><?php echo $v['title'] ?></h3>
+                            <h4><?php echo $v['introduction'] ?></h4>
+                        </div>
+                    </div>
+                </div>
+            <?php endforeach ?>
+        </div>
+    </div>
+    <div class="h5">
+        <div class="h5-invest f-cb">
+            <div></div>
+            <?php foreach ($list as $k => $v): ?>
+                <a href="<?php echo site_url('photos/' . $v['id']); ?>" class="h5-invest-li fl"
+                   style="background: url(<?php echo UPLOAD_URL . tag_photo($v['photo']); ?>) no-repeat center; background-size: cover;">
+                    <div class="title"><?php echo $v['title'] ?></div>
+                    <div class="dis"><?php echo $v['introduction'] ?></div>
+                </a>
+            <?php endforeach ?>
+        </div>
+    </div>
+</div>
+<!-- end invest -->
+<!-- start 底部 -->
+<?php include_once VIEWS . 'inc/footer.php'; ?>
+<!-- end 底部 -->
 <?php
-echo static_file('web/css/dest/jquery.fullPage.css');
 echo static_file('jQuery.js');
-echo static_file('jquery.easing.1.3.js');
-echo static_file('jquery.fullPage.min.js');
 echo static_file('comm.js');
 ?>
 <script>
     $(function () {
-        var nowWidth = $(window).width()
-        window.onresize = function () {
-            nowWidth = $(window).width()
-            if (nowWidth <= 1024) {
-                $("#superContainer").css('top', '0');
+        var busSetInitInvest;
+        var setIntInvest;
+        var setNextRemoveInvest;
+        var setPrevRemoveInvest;
+        var isIdxInvest = true;
+
+        function invest(total, ln, arrowBox, svg, arrowPre, box, delayTm) {// total: 总共几个; ln: 循环个数; arrowBox: 箭头盒子; svg: 往后箭头; arrowPre: 往前箭头; box: 主要的块; delayTm: 延时
+            arrowBox.addClass("circleAni");
+            var add = function (i, k) {
+                box.find($(".silder-format")).eq(i).addClass("format-" + (k + 1))
+                box.find($(".silder-format")).eq(i).css({opacity: 1})
+                box.find($(".silder-format")).eq(i).find('.slide-img').addClass('slideAni')
+                box.find($(".silder-format")).eq(i).find('.slide-img-effect').addClass('slideAni')
+                box.find($(".silder-format")).eq(i).find('.img-container').addClass('trans3d')
+                box.find($(".silder-format")).eq(i).find('.gayBg').addClass('bgAni')
             }
-        }
-        var proSection = $("#fullpage .section.pc");
-        
-        
-        $('#fullpage').fullpage({
-            scrollOverflow: false,
-            onLeave: function (index) {
-                if (nowWidth <= 1024) {
-                    //$.fn.fullpage.moveTo(1)
-                    proSection.remove()
-                } else {
-                    $('#fullpage').append(proSection)
+            var remove = function (i, k) {
+                box.find($(".silder-format")).eq(i).removeClass("format-" + (k + 1))
+                box.find($(".silder-format")).eq(i).find('.slide-img').removeClass('slideAni')
+                box.find($(".silder-format")).eq(i).find('.slide-img-effect').removeClass('slideAni')
+                box.find($(".silder-format")).eq(i).find('.img-container').removeClass('trans3d')
+                box.find($(".silder-format")).eq(i).find('.gayBg').removeClass('bgAni')
+
+                // box.find($(".format-"+i+" .slide-img,.format-"+i+" .slide-img-effect")).removeClass('slideAni')
+                // box.find($(".format-"+i+" .img-container")).removeClass('trans3d')
+                // box.find($(".format-"+i+" .slide-text,.format-"+i+" .slide-text-effect")).removeClass('textAni')
+                // box.find($(".format-"+i+" .gayBg")).removeClass('bgAni')
+            }
+
+            // start 一开始打开的时候，先渲染5个
+            var i = 0;
+            busSetInitInvest = setInterval(function () {
+                i == ln ? clearInterval(busSetInitInvest) : add(i, i)
+                i++
+            }, delayTm)
+            // end
+
+            // 循环开始
+            var isBusClick = false;
+            var int = function () {
+                clearInterval(setIntInvest)
+                isBusClick = false;
+                setIntInvest = setInterval(function () {
+                    goNext()
+                }, 3000 * ln)
+            }
+            // 循环结束
+
+            //向前开始
+            var goNext = function () {
+                isBusClick = false;
+                var k = 0;
+                remove(0, k);
+                var sl = box.find('.silder-format').eq(0)
+                box.append(sl)
+                add(ln - 1, k)
+                setNextRemoveInvest = setInterval(function () {
+                    k++;
+                    if (k == ln) {
+                        clearInterval(setNextRemoveInvest)
+                        isBusClick = true
+                        console.log(isBusClick)
+                    } else {
+                        remove(0, k);
+                        sl = box.find('.silder-format').eq(0)
+                        box.append(sl)
+                        add(ln - 1, k)
+                    }
+                }, delayTm)
+                arrowBox.removeClass("circleAni");
+                setTimeout(function () {
+                    arrowBox.addClass("circleAni");
+                    //add(1)
+                }, 100)
+            }
+            //向前结束
+
+            //向后开始
+            var goPrev = function () {
+                isBusClick = false;
+                var k = 0;
+                remove(0, k);
+                var sl = box.find('.silder-format:last')
+                box.prepend(sl)
+                add(0, k)
+                setPrevRemoveInvest = setInterval(function () {
+                    k++;
+                    if (k == ln) {
+                        clearInterval(setPrevRemoveInvest)
+                        isBusClick = true
+                    } else {
+                        remove(k + 1, k);
+                        add(k, k)
+                    }
+                }, delayTm)
+                arrowBox.removeClass("circleAni");
+                setTimeout(function () {
+                    arrowBox.addClass("circleAni");
+                    //add(1)
+                }, 100)
+            }
+            //向后结束
+
+            // 如果总数大于显示的数据，那么循环
+            if (total > ln) {
+                int();
+            }
+
+
+            box.on("mouseover mouseout", 'svg', function (event) {
+                if (event.type == "mouseover") {
+                    //鼠标悬浮
+                    clearInterval(setIntInvest)
+                } else if (event.type == "mouseout") {
+                    //鼠标离开
+                    int()
                 }
-            }
-            // afterLoad: function(){
-            //     setTimeout(function(){
-            //         $(".scrollable").scrollTop(0)
-            //     },300)
-            // }
-        });
-        $('.go-next').click(function () {
-            $.fn.fullpage.moveSectionDown();
-        })
-         $('.go-previous').click(function () {
-            $.fn.fullpage.moveTo(1);
-        })
-    });
+            })
+
+            box.on("mouseover mouseout", '.arrow-pre-one', function (event) {
+                if (event.type == "mouseover") {
+                    //鼠标悬浮
+                    clearInterval(setIntInvest)
+                } else if (event.type == "mouseout") {
+                    //鼠标离开
+                    int()
+                }
+            })
+
+            box.on('click', 'svg', function (event) {
+                event.preventDefault();
+                /* Act on the event */
+                console.log("点击了向前的按钮")
+                console.log('isBusClick====', isBusClick)
+                if (isBusClick) {
+                    goNext();
+                    console.log(111)
+                }
+            });
+            box.on('click', '.arrow-pre-one', function (event) {
+                event.preventDefault();
+                /* Act on the event */
+                clearInterval(setIntInvest)
+                console.log(isBusClick)
+                if (isBusClick && total >= ln * 2) {
+                    goPrev();
+                    console.log(222)
+                }
+            });
+
+
+        }
+
+        invest($(".invest .silder-format").length, 7, $(".invest .arrow-box"), 'svg', 'arrow-pre-one', $(".invest"), 800)
+    })
 </script>
 </body>
 </html>

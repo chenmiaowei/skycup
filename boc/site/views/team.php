@@ -131,7 +131,6 @@ $bannerit = $CI->mcolumnpic->get_one(array('cid' => 21, 'audit' => 1, 'ctype' =>
 <!-- start 底部 -->
 <?php include_once VIEWS . 'inc/footer.php'; ?>
 <!-- end 底部 -->
-
 <?php
 echo static_file('jQuery.js');
 echo static_file('comm.js');
