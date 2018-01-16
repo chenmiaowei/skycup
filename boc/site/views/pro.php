@@ -11,6 +11,9 @@ $CI->load->model('article_model', 'marticle');
 $list = $CI->marticle->get_all($where, 'id,photo,title,introduction,content,xphoto,color');
 
 
+$CI->load->model('columnpic_model', 'mcolumnpic');
+$bannerit = $CI->mcolumnpic->get_one(array('cid' => 4, 'audit' => 1), 'id,photo');
+
 $CI->load->model('coltypes_model', 'mcoltypes');
 $ctypelist = $CI->mcoltypes->get_all(array('cid' => 4, 'show' => 1), 'id,title', array('id' => 'asc'));
 ?>
@@ -43,7 +46,11 @@ $ctypelist = $CI->mcoltypes->get_all(array('cid' => 4, 'show' => 1), 'id,title',
         </div>
 
         <!-- start 列表页面banner -->
-        <div class="ban his-ban" data-img="<?php echo static_file('img/ban-1.jpg'); ?>">
+        <div class="ban his-ban" data-img="<?php if (!empty($bannerit)) {
+            echo UPLOAD_URL . tag_photo($bannerit['photo']);
+        } else {
+            echo static_file('img/ban-1.jpg');
+        } ?>">
             <h2><?php echo tag_columns(4); ?></h2>
             <h3>Portfolio And Investors</h3>
             <?php include_once VIEWS . 'inc/menu.php'; ?>
