@@ -3,7 +3,8 @@ $where = array('cid' => 23);
 $CI->load->model('article_model', 'marticle');
 $list = $CI->marticle->get_all($where, 'id,photo,title,introduction,content,xphoto,color');
 
-
+$CI->load->model('columnpic_model', 'mcolumnpic');
+$bannerit = $CI->mcolumnpic->get_one(array('cid' => 24, 'audit' => 1, 'ctype' => 2), 'id,photo');
 ?>
 <!DOCTYPE html>
 <html>
@@ -32,7 +33,11 @@ $list = $CI->marticle->get_all($where, 'id,photo,title,introduction,content,xpho
 </div>
 
 <!-- start 列表页面banner -->
-<div class="ban his-ban" data-img="<?php echo static_file('img/ban-1.jpg'); ?>">
+<div class="ban his-ban" data-img="<?php if (!empty($bannerit)) {
+    echo UPLOAD_URL . tag_photo($bannerit['photo']);
+} else {
+    echo static_file('img/ban-1.jpg');
+} ?>">
     <h2>照片墙</h2>
     <h3>Our Picture</h3>
     <?php include_once VIEWS . 'inc/menu.php'; ?>
