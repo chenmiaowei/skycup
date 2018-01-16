@@ -12,7 +12,7 @@ $list = $CI->marticle->get_all($where, 'id,photo,title,introduction,content,xpho
 
 
 $CI->load->model('columnpic_model', 'mcolumnpic');
-$bannerit = $CI->mcolumnpic->get_one(array('cid' => 4), 'id,photo');
+$bannerit = $CI->mcolumnpic->get_one(array('cid'=>21,'audit'=>1,'ctype'=>4),'id,photo');
 
 $CI->load->model('coltypes_model', 'mcoltypes');
 $ctypelist = $CI->mcoltypes->get_all(array('cid' => 4, 'show' => 1), 'id,title', array('id' => 'asc'));
