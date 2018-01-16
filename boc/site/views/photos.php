@@ -2,7 +2,7 @@
 !isset($reg[0]) and show_404();
 
 $CI->load->model('gallery_model', 'mgallery');
-$list = $CI->mgallery->get_all(array(), 'id,photo,pic,title,position,content');
+$list = $CI->mgallery->get_all(array('cid' => 24), 'id,photo,pic,title,position,content');
 //$list = $CI->mgallery->get_all(array('aid' => $reg[0]), 'id,photo,pic,title,position,content');
 
 
