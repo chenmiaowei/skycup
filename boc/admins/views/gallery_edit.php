@@ -34,7 +34,7 @@
             <?php if ($this->cid == 24) {
                 $CI = get_instance();
                 $CI->load->model('article_model', 'marticle');
-                $newslist = $CI->marticle->get_list(4, 0, false, array( 'cid' => 23), 'id,photo,title,timeline,ctype,introduction');
+                $newslist = $CI->marticle->get_list(1000, 0, false, array( 'cid' => 23), 'id,photo,title,timeline,ctype,introduction');
                 ?>
                 <div class="control-group">
                     <label class="control-label" for="status"> 所属图片文章:</label>
