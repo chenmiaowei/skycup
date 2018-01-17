@@ -36,7 +36,7 @@ $tzlist = $CI->marticle->get_list(5, 0, false, array('cid' => 4, 'audit' => 1, '
                         data-img="<?php echo UPLOAD_URL . tag_photo($v['photo']); ?>">
                     <?php if ($v['video']) { ?>
                         <span class="gray-bg"></span>
-                        <video class="video-sign h-f" id="i-ban-video" loop="" preload="load" muted="muted"
+                        <video class="video-sign h-f i-ban-video" id="i-ban-video" loop="" preload="load" muted="muted"
                                src="<?php echo UPLOAD_URL . tag_photo($v['video']); ?>"></video>
                     <?php } ?>
                     <div class="cent-cont">
