@@ -101,12 +101,12 @@ $(function(){
 			// for (var a = 0; a < i; a++) {
 			// 	$(".banner .btns .line").eq(a).children('i').stop().height("100%");
 			// };
-			$(".banner .btns .line").children('i').css({height: 0}).stop().animate({height: '100%'}, 18999, "linear");
+			$(".banner .btns .line").children('i').css({height: 0}).stop().animate({height: '100%'}, 17999, "linear");
 			$(".banner .btns .nums").html(i < 9 ? '0'+ (i + 1) : i+1 );
 			$(".banner .btns .circle.active").removeClass('active');
 			$(".banner .btns .circle").eq(i).addClass('active');
 		}
-		$(".banner .btns .line").children('i').stop().animate({height: '100%'}, 19000, "linear");
+		$(".banner .btns .line").children('i').stop().animate({height: '100%'}, 18000, "linear");
 		//自动开始, 创建定时器
 		var myTime = setInterval(function(){
 			myShow(sw);
@@ -114,7 +114,7 @@ $(function(){
 			if(sw == listN){
 				sw = 0;
 			}
-		}, 19000);
+		}, 18000);
 
 
 	}
