@@ -60,7 +60,7 @@ $bannerit = $CI->mcolumnpic->get_one(array('cid' => 21, 'audit' => 1, 'ctype' =>
     echo static_file('img/ban-3.jpg');
 } ?>">
     <h2><?php echo tag_columns(5); ?></h2>
-    <h3>Our Business</h3>
+    <h3>Skycus Watch</h3>
     <?php include_once VIEWS . 'inc/menu.php'; ?>
 
 
