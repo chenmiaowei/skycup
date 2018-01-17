@@ -49,7 +49,7 @@ $tzlist = $CI->marticle->get_list(5, 0, false, array('cid' => 4, 'audit' => 1, '
 
         </ul>
         <div class="btns">
-            <div class="nums">01</div>
+<!--            <div class="nums">01</div>-->
             <div class="line">
                 <i></i>
             </div>
