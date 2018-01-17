@@ -34,7 +34,7 @@ $(function () {
             if (Media) {
                 var Vidnum = $(".banner li.video").index();
                 if (Vidnum == 0 && $(window).width() >= 1024) {
-                    Media.play();
+                    // Media.play();
                 }
                 ;
             }
@@ -51,9 +51,9 @@ $(function () {
         function myShow(i) {
             for (var a = 0; a < listN; a++) {
                 if (a == i && $(window).width() >= 1024) {
-                    $(".i-ban-video").get(a).play();
+                    // $(".i-ban-video").get(a).play();
                 } else {
-                    $(".i-ban-video").get(a).pause();
+                    // $(".i-ban-video").get(a).pause();
                 }
             }
 
