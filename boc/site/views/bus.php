@@ -31,7 +31,7 @@
     <!-- start 列表页面banner -->
     <div class="ban bus-ban" data-img="<?php if(!empty($bannerit)){echo UPLOAD_URL.tag_photo($bannerit['photo']);}else{ echo static_file('img/ban-1.jpg'); } ?>">
         <h2><?php echo tag_columns(3); ?></h2>
-        <h3>Our Bussiness</h3>
+        <h3>Our Business</h3>
         <?php include_once VIEWS . 'inc/menu.php'; ?>
 
 
