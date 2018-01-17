@@ -34,9 +34,8 @@ $(function () {
             if (Media) {
                 var Vidnum = $(".banner li.video").index();
                 if (Vidnum == 0 && $(window).width() >= 1024) {
-                    // Media.play();
-                }
-                ;
+                    Media.play();
+                };
             }
             $(".banner .gray-bg").hide();
             Fullvideo($(".banner"), $(".banner .video-sign"));
