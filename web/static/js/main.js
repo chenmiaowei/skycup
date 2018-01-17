@@ -106,7 +106,7 @@ $(function(){
 			$(".banner .btns .circle.active").removeClass('active');
 			$(".banner .btns .circle").eq(i).addClass('active');
 		}
-		$(".banner .btns .line").children('i').stop().animate({height: '100%'}, 18000, "linear");
+		$(".banner .btns .line").children('i').stop().animate({height: '100%'}, 17000, "linear");
 		//自动开始, 创建定时器
 		var myTime = setInterval(function(){
 			myShow(sw);
@@ -114,7 +114,7 @@ $(function(){
 			if(sw == listN){
 				sw = 0;
 			}
-		}, 18000);
+		}, 17000);
 
 
 	}
