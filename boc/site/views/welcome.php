@@ -32,8 +32,7 @@ $tzlist = $CI->marticle->get_list(5, 0, false, array('cid' => 4, 'audit' => 1, '
         <ul>
             <!-- 注意，判断第一个是否是视频 图片大小1920*1120-->
             <?php foreach ($bannerlist as $k => $v): ?>
-                <li <?php if ($v['video']) { ?> class="video" <?php } ?>
-                        data-img="<?php echo UPLOAD_URL . tag_photo($v['photo']); ?>">
+                <li <?php if ($v['video']) { ?> class="video" <?php } ?>>
                     <?php if ($v['video']) { ?>
                         <span class="gray-bg"></span>
                         <video class="video-sign h-f i-ban-video" id="i-ban-video" loop="" preload="load" muted="muted"
