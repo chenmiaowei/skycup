@@ -28,3 +28,5 @@ ERROR - 2018-01-20 11:10:56 --> Severity: Notice  --> Only variable references s
 ERROR - 2018-01-20 11:10:56 --> Language file contains no data: language/zh_CN/common_lang.php
 ERROR - 2018-01-20 11:11:02 --> Severity: Notice  --> Only variable references should be returned by reference /Users/air/Documents/personal/skycup/boc/libs/ci/core/Common.php 264
 ERROR - 2018-01-20 11:11:02 --> Language file contains no data: language/zh_CN/common_lang.php
+ERROR - 2018-01-20 11:12:50 --> Severity: Notice  --> Only variable references should be returned by reference /Users/air/Documents/personal/skycup/boc/libs/ci/core/Common.php 264
+ERROR - 2018-01-20 11:12:50 --> Language file contains no data: language/zh_CN/common_lang.php

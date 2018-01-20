@@ -44,7 +44,6 @@
     <div class="pc">
         <div class="sub-nav">
             <div class="sub-nav-box"><a href="<?php echo site_url('contact'); ?>" class="active">联系我们</a></div>
-            <div class="sub-nav-box"><a href="<?php echo site_url('join'); ?>">加入我们</a></div>
         </div>
     </div>
     <!-- start 列表页小标题 -->
