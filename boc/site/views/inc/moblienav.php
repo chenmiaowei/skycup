@@ -50,7 +50,7 @@
 
     <a class="nav-title" href="<?php echo site_url('contact'); ?>">
         <div class="nav-li">
-            <div class="title">联系我们</div>
+            <div class="title">联系方式</div>
             <span class="iconfont ty-arrowll-copy"></span>
         </div>
     </a>

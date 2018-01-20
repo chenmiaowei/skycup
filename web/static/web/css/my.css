@@ -239,12 +239,12 @@
   bottom: 50px;
   width: 100px;
   background: #0e0e0e;
-  -moz-opacity: 0.3;
-  -khtml-opacity: 0.3;
-  -webkit-opacity: 0.3;
-  opacity: 0.3;
-  -ms-filter: progid:DXImageTransform.Microsoft.Alpha(opacity=30);
-  filter: alpha(opacity=30);
+  -moz-opacity: 0.7;
+  -khtml-opacity: 0.7;
+  -webkit-opacity: 0.7;
+  opacity: 0.7;
+  -ms-filter: progid:DXImageTransform.Microsoft.Alpha(opacity=70);
+  filter: alpha(opacity=70);
   -webkit-border-top-right-radius: 10px;
   -webkit-border-bottom-right-radius: 10px;
   -webkit-border-bottom-left-radius: 10px;
@@ -260,6 +260,9 @@
   -moz-background-clip: padding-box;
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
+}
+.pro-img .arrow-container .go-previous {
+  border-bottom: 1px solid #ffffff;
 }
 .pro-img .arrow-container .go-next,
 .pro-img .arrow-container .go-previous {
@@ -668,7 +671,7 @@ header.title.title-line .line {
 }
 .banner .other-btns a .img5,
 .ban .other-btns a .img5 {
-  background: url("../../img/联系我们.png");
+  background: url("../../img/联系方式.png");
 }
 .invest .slide-img-effect h4 {
   color: rgba(0, 0, 0, 0.1);

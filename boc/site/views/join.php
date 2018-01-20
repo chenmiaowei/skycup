@@ -42,7 +42,7 @@
     <!-- start 列表页小标题 -->
     <div class="pc">
         <div class="sub-nav">
-            <div class="sub-nav-box"><a href="<?php echo site_url('contact'); ?>">联系我们</a></div>
+            <div class="sub-nav-box"><a href="<?php echo site_url('contact'); ?>">联系方式</a></div>
         </div>
         <div style="height: 120px;"></div>
     </div>

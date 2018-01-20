@@ -156,3 +156,60 @@ ERROR - 2018-01-20 12:07:44 --> Language file contains no data: language/zh_CN/c
 ERROR - 2018-01-20 12:07:44 --> 404 Page Not Found --> 
 ERROR - 2018-01-20 12:07:44 --> Severity: Warning  --> include_once(/Users/air/Documents/personal/skycup/boc/site/views/404.php): failed to open stream: No such file or directory /Users/air/Documents/personal/skycup/boc/site/errors/error_404.php 1
 ERROR - 2018-01-20 12:07:44 --> Severity: Warning  --> include_once(): Failed opening '/Users/air/Documents/personal/skycup/boc/site/views/404.php' for inclusion (include_path='.:') /Users/air/Documents/personal/skycup/boc/site/errors/error_404.php 1
+ERROR - 2018-01-20 12:10:30 --> Severity: Notice  --> Only variable references should be returned by reference /Users/air/Documents/personal/skycup/boc/libs/ci/core/Common.php 264
+ERROR - 2018-01-20 12:10:30 --> Language file contains no data: language/zh_CN/common_lang.php
+ERROR - 2018-01-20 12:10:31 --> Severity: Notice  --> Only variable references should be returned by reference /Users/air/Documents/personal/skycup/boc/libs/ci/core/Common.php 264
+ERROR - 2018-01-20 12:10:31 --> Language file contains no data: language/zh_CN/common_lang.php
+ERROR - 2018-01-20 12:10:31 --> 404 Page Not Found --> 
+ERROR - 2018-01-20 12:10:31 --> Severity: Warning  --> include_once(/Users/air/Documents/personal/skycup/boc/site/views/404.php): failed to open stream: No such file or directory /Users/air/Documents/personal/skycup/boc/site/errors/error_404.php 1
+ERROR - 2018-01-20 12:10:31 --> Severity: Warning  --> include_once(): Failed opening '/Users/air/Documents/personal/skycup/boc/site/views/404.php' for inclusion (include_path='.:') /Users/air/Documents/personal/skycup/boc/site/errors/error_404.php 1
+ERROR - 2018-01-20 12:13:44 --> Severity: Notice  --> Only variable references should be returned by reference /Users/air/Documents/personal/skycup/boc/libs/ci/core/Common.php 264
+ERROR - 2018-01-20 12:13:44 --> Language file contains no data: language/zh_CN/common_lang.php
+ERROR - 2018-01-20 12:13:45 --> Severity: Notice  --> Only variable references should be returned by reference /Users/air/Documents/personal/skycup/boc/libs/ci/core/Common.php 264
+ERROR - 2018-01-20 12:13:45 --> Language file contains no data: language/zh_CN/common_lang.php
+ERROR - 2018-01-20 12:13:45 --> 404 Page Not Found --> 
+ERROR - 2018-01-20 12:13:45 --> Severity: Warning  --> include_once(/Users/air/Documents/personal/skycup/boc/site/views/404.php): failed to open stream: No such file or directory /Users/air/Documents/personal/skycup/boc/site/errors/error_404.php 1
+ERROR - 2018-01-20 12:13:45 --> Severity: Warning  --> include_once(): Failed opening '/Users/air/Documents/personal/skycup/boc/site/views/404.php' for inclusion (include_path='.:') /Users/air/Documents/personal/skycup/boc/site/errors/error_404.php 1
+ERROR - 2018-01-20 19:30:19 --> Severity: Notice  --> Only variable references should be returned by reference /Users/air/Documents/personal/skycup/boc/libs/ci/core/Common.php 264
+ERROR - 2018-01-20 19:30:19 --> Language file contains no data: language/zh_CN/common_lang.php
+ERROR - 2018-01-20 19:30:22 --> Severity: Notice  --> Only variable references should be returned by reference /Users/air/Documents/personal/skycup/boc/libs/ci/core/Common.php 264
+ERROR - 2018-01-20 19:30:22 --> Language file contains no data: language/zh_CN/common_lang.php
+ERROR - 2018-01-20 19:30:22 --> 404 Page Not Found --> 
+ERROR - 2018-01-20 19:30:22 --> Severity: Warning  --> include_once(/Users/air/Documents/personal/skycup/boc/site/views/404.php): failed to open stream: No such file or directory /Users/air/Documents/personal/skycup/boc/site/errors/error_404.php 1
+ERROR - 2018-01-20 19:30:22 --> Severity: Warning  --> include_once(): Failed opening '/Users/air/Documents/personal/skycup/boc/site/views/404.php' for inclusion (include_path='.:') /Users/air/Documents/personal/skycup/boc/site/errors/error_404.php 1
+ERROR - 2018-01-20 19:30:22 --> Severity: Notice  --> Only variable references should be returned by reference /Users/air/Documents/personal/skycup/boc/libs/ci/core/Common.php 264
+ERROR - 2018-01-20 19:30:22 --> Language file contains no data: language/zh_CN/common_lang.php
+ERROR - 2018-01-20 19:30:22 --> 404 Page Not Found --> 
+ERROR - 2018-01-20 19:30:22 --> Severity: Warning  --> include_once(/Users/air/Documents/personal/skycup/boc/site/views/404.php): failed to open stream: No such file or directory /Users/air/Documents/personal/skycup/boc/site/errors/error_404.php 1
+ERROR - 2018-01-20 19:30:22 --> Severity: Warning  --> include_once(): Failed opening '/Users/air/Documents/personal/skycup/boc/site/views/404.php' for inclusion (include_path='.:') /Users/air/Documents/personal/skycup/boc/site/errors/error_404.php 1
+ERROR - 2018-01-20 19:30:27 --> Severity: Notice  --> Only variable references should be returned by reference /Users/air/Documents/personal/skycup/boc/libs/ci/core/Common.php 264
+ERROR - 2018-01-20 19:30:27 --> Language file contains no data: language/zh_CN/common_lang.php
+ERROR - 2018-01-20 19:30:52 --> Severity: Notice  --> Only variable references should be returned by reference /Users/air/Documents/personal/skycup/boc/libs/ci/core/Common.php 264
+ERROR - 2018-01-20 19:30:52 --> Language file contains no data: language/zh_CN/common_lang.php
+ERROR - 2018-01-20 19:30:59 --> Severity: Notice  --> Only variable references should be returned by reference /Users/air/Documents/personal/skycup/boc/libs/ci/core/Common.php 264
+ERROR - 2018-01-20 19:30:59 --> Language file contains no data: language/zh_CN/common_lang.php
+ERROR - 2018-01-20 19:31:12 --> Severity: Notice  --> Only variable references should be returned by reference /Users/air/Documents/personal/skycup/boc/libs/ci/core/Common.php 264
+ERROR - 2018-01-20 19:31:12 --> Language file contains no data: language/zh_CN/common_lang.php
+ERROR - 2018-01-20 19:32:06 --> Severity: Notice  --> Only variable references should be returned by reference /Users/air/Documents/personal/skycup/boc/libs/ci/core/Common.php 264
+ERROR - 2018-01-20 19:32:07 --> Language file contains no data: language/zh_CN/common_lang.php
+ERROR - 2018-01-20 19:32:13 --> Severity: Notice  --> Only variable references should be returned by reference /Users/air/Documents/personal/skycup/boc/libs/ci/core/Common.php 264
+ERROR - 2018-01-20 19:32:13 --> Language file contains no data: language/zh_CN/common_lang.php
+ERROR - 2018-01-20 19:32:21 --> Severity: Notice  --> Only variable references should be returned by reference /Users/air/Documents/personal/skycup/boc/libs/ci/core/Common.php 264
+ERROR - 2018-01-20 19:32:21 --> Language file contains no data: language/zh_CN/common_lang.php
+ERROR - 2018-01-20 19:32:21 --> 404 Page Not Found --> 
+ERROR - 2018-01-20 19:32:21 --> Severity: Warning  --> include_once(/Users/air/Documents/personal/skycup/boc/site/views/404.php): failed to open stream: No such file or directory /Users/air/Documents/personal/skycup/boc/site/errors/error_404.php 1
+ERROR - 2018-01-20 19:32:21 --> Severity: Warning  --> include_once(): Failed opening '/Users/air/Documents/personal/skycup/boc/site/views/404.php' for inclusion (include_path='.:') /Users/air/Documents/personal/skycup/boc/site/errors/error_404.php 1
+ERROR - 2018-01-20 19:32:31 --> Severity: Notice  --> Only variable references should be returned by reference /Users/air/Documents/personal/skycup/boc/libs/ci/core/Common.php 264
+ERROR - 2018-01-20 19:32:31 --> Language file contains no data: language/zh_CN/common_lang.php
+ERROR - 2018-01-20 19:32:33 --> Severity: Notice  --> Only variable references should be returned by reference /Users/air/Documents/personal/skycup/boc/libs/ci/core/Common.php 264
+ERROR - 2018-01-20 19:32:33 --> Language file contains no data: language/zh_CN/common_lang.php
+ERROR - 2018-01-20 19:32:33 --> 404 Page Not Found --> 
+ERROR - 2018-01-20 19:32:33 --> Severity: Warning  --> include_once(/Users/air/Documents/personal/skycup/boc/site/views/404.php): failed to open stream: No such file or directory /Users/air/Documents/personal/skycup/boc/site/errors/error_404.php 1
+ERROR - 2018-01-20 19:32:33 --> Severity: Warning  --> include_once(): Failed opening '/Users/air/Documents/personal/skycup/boc/site/views/404.php' for inclusion (include_path='.:') /Users/air/Documents/personal/skycup/boc/site/errors/error_404.php 1
+ERROR - 2018-01-20 19:32:42 --> Severity: Notice  --> Only variable references should be returned by reference /Users/air/Documents/personal/skycup/boc/libs/ci/core/Common.php 264
+ERROR - 2018-01-20 19:32:42 --> Language file contains no data: language/zh_CN/common_lang.php
+ERROR - 2018-01-20 19:32:43 --> Severity: Notice  --> Only variable references should be returned by reference /Users/air/Documents/personal/skycup/boc/libs/ci/core/Common.php 264
+ERROR - 2018-01-20 19:32:43 --> Language file contains no data: language/zh_CN/common_lang.php
+ERROR - 2018-01-20 19:32:43 --> 404 Page Not Found --> 
+ERROR - 2018-01-20 19:32:43 --> Severity: Warning  --> include_once(/Users/air/Documents/personal/skycup/boc/site/views/404.php): failed to open stream: No such file or directory /Users/air/Documents/personal/skycup/boc/site/errors/error_404.php 1
+ERROR - 2018-01-20 19:32:43 --> Severity: Warning  --> include_once(): Failed opening '/Users/air/Documents/personal/skycup/boc/site/views/404.php' for inclusion (include_path='.:') /Users/air/Documents/personal/skycup/boc/site/errors/error_404.php 1

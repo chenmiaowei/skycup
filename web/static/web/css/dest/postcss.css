@@ -1661,7 +1661,7 @@
     height: 240px;
 }
 
-/*首页联系我们*/
+/*首页联系方式*/
 .index-contact {
     position: relative;
     margin-top: 20px;
@@ -2141,7 +2141,7 @@
     padding-left: 60px;
 }
 
-/*联系我们*/
+/*联系方式*/
 .contact-box {
     background: #333;
     height: 930px;
@@ -3803,7 +3803,7 @@
         left: 0;
     }
 
-    /*联系我们*/
+    /*联系方式*/
     .contact-box {
         height: auto;
         padding-right: 0;

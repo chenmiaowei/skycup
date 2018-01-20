@@ -22,7 +22,7 @@
 				<li><a class="t-c" href="<?php echo site_url('news'); ?> ">新闻&活动</a></li>
 				<li><a class="t-c" href="<?php echo site_url('video_list'); ?> ">资源下载</a></li>
 				<li><a class="t-c" href="<?php echo site_url('about'); ?> ">关于我们</a></li>
-				<li><a class="t-c" href="<?php echo site_url('contact'); ?> ">联系我们</a></li>
+				<li><a class="t-c" href="<?php echo site_url('contact'); ?> ">联系方式</a></li>
 			</ul>
 		</div>
 	</div>

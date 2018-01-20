@@ -49,7 +49,7 @@
     <div class="fl">
         <a href="<?php echo site_url('contact'); ?>">
             <span class="img img5"></span>
-            <span>联系我们</span>
+            <span>联系方式</span>
         </a>
     </div>
 </div>
