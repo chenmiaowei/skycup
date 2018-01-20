@@ -260,9 +260,12 @@
   -moz-background-clip: padding-box;
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
+  -webkit-box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
 }
 .pro-img .arrow-container .go-previous {
-  border-bottom: 1px solid #ffffff;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 }
 .pro-img .arrow-container .go-next,
 .pro-img .arrow-container .go-previous {
