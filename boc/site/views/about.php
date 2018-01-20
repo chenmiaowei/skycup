@@ -86,7 +86,7 @@
 
     <!-- 理念 -->
     <div class="about-idea">
-        <p>秉承真诚、开放、共赢的理念，天壹资本致力于整合 资本与产业资源，与优秀的企业家一同推动产业发展、创造产业价值。</p>
+        <p>倡导至专、至纯、至精的理念，秉承稳中进取、与时俱进、坚持专业、恪守底线的原则，天壹资本致力于整合 资本与产业资源，与优秀的企业家一同推动产业发展、创造产业价值。</p>
         <div class="about-box">
             <div class="about-link">
                 <a href="<?php echo site_url('invest'); ?>" class="about-link-left"><span>了解我们的投资策略</span><span class="icon-row-right"></span></a>

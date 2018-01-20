@@ -249,22 +249,31 @@
 
 .pro-img {
   position: relative;
-  .go-next, .go-previous {
+  .arrow-container {
     position: absolute;
     right: 50px;
     bottom: 50px;
-    i {
-      font-size: 100px;
-      .opacity(0.3);
-    }
-    &:hover {
+    width: 100px;
+    background: #0e0e0e;
+    .opacity(0.3);
+    .border-radius(10px, 10px, 10px, 10px);
+
+    .go-next, .go-previous {
+      display: inline-block;
+      float: right;
+      width: 100%;
+      text-align: center;
+      padding: 25px 0;
       i {
-        .opacity(1);
+        font-size: 50px;
+        color: #ffffff;
+      }
+      &:hover {
+        i {
+          .opacity(1);
+        }
       }
     }
-  }
-  .go-previous {
-    display: none;
   }
 }
 
@@ -273,15 +282,15 @@
     top: 60% !important;
   }
 }
-
-.section.last {
-  .go-next {
-    display: none !important;
-  }
-  .go-previous {
-    display: block !important;
-  }
-}
+//
+//.section.last {
+//  .go-next {
+//    display: none !important;
+//  }
+//  .go-previous {
+//    display: block !important;
+//  }
+//}
 
 .about-list .about-box .about-box-text, .about-list .about-box .about-box-text:hover {
   .about-msg .about-exp {
@@ -839,7 +848,7 @@ header.title.title-line .line {
         top: 120px;
       }
     }
-    .format-3,.format-7 {
+    .format-3, .format-7 {
       .slide-img-effect h3 {
         bottom: 56px;
       }
