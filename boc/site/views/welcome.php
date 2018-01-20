@@ -75,7 +75,7 @@ $tzlist = $CI->marticle->get_list(5, 0, false, array('cid' => 4, 'audit' => 1, '
             <div class="line"></div>
             <div class="dis"><?php echo $gslist[0]['introduction'] ?></div>
             <div class="about-new-aline">
-                <a href="<?php echo site_url('about'); ?>" class="aline">了解详情</span>
+                <a href="<?php echo site_url('about'); ?>" class="aline">了解详情</a>
                     <a class="icon-row-right-box" href="<?php echo site_url('about'); ?>">
                         <div class="icon-row-right"></div>
                     </a>
@@ -325,32 +325,6 @@ $tzlist = $CI->marticle->get_list(5, 0, false, array('cid' => 4, 'audit' => 1, '
     </div>
 </div>
 
-
-<!-- start index-contact -->
-<div class="index-contact f-cb pc">
-    <a class="index-join-box fl" href="<?php echo site_url('join'); ?>">
-        <div class="index-cont-box">
-            <div class="index-cont-img"></div>
-            <div class="title">加入我们</div>
-            <div class="dis">职位空缺更新实时为您推送</div>
-        </div>
-    </a>
-    <a class="index-join-box fl" href="<?php echo site_url('contact'); ?>">
-        <div class="index-cont-box">
-            <div class="index-cont-img index-cont2-img"></div>
-            <div class="title">联系我们</div>
-            <div class="dis">秉承真诚、开放、共赢的理念</div>
-        </div>
-    </a>
-    <div class="bus-col fl">
-        <h2>联系我们</h2>
-        <div class="line"></div>
-        <a class="icon-row-right-box" href="<?php echo site_url('contact'); ?>">
-            <div class="icon-row-right"></div>
-        </a>
-    </div>
-</div>
-<!-- end index-contact -->
 
 
 <!-- start 底部 -->

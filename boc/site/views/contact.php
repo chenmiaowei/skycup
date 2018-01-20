@@ -33,7 +33,7 @@
     <!-- start 列表页面banner -->
     <div class="ban bus-ban" data-img="<?php if(!empty($bannerit)){echo UPLOAD_URL.tag_photo($bannerit['photo']);}else{ echo static_file('img/ban-2.jpg'); } ?>">
         <h2>联系我们</h2>
-        <h3>Contact Us</h3>
+        <h3>Contact Info</h3>
         <?php include_once VIEWS . 'inc/menu.php'; ?>
 
 

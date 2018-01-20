@@ -53,7 +53,7 @@ $this->db->update('article', $data);
     <h3><?php if ($it['cid'] == 4) {
             echo 'Portfolio And Investors';
         } elseif ($it['cid'] == 5) {
-            echo 'Tianyi Information';
+            echo 'Skycus Watch';
         } elseif ($it['cid'] == 3) {
             echo 'Our Business';
         } ?></h3>
