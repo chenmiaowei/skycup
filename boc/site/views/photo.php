@@ -1,5 +1,5 @@
 <?php
-$where = array('cid' => 23);
+$where = array('cid' => 23, 'audit' => 1);
 $CI->load->model('article_model', 'marticle');
 $list = $CI->marticle->get_all($where, 'id,photo,title,introduction,content,xphoto,color');
 
